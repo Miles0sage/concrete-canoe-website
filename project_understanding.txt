@@ -1,0 +1,769 @@
+
+2026 NAU Concrete Canoe
+
+
+
+
+
+Team Members:
+Amit Shah, Jonathan Alvarez Rojas, Kayleigh Rice, Theo Greenan, Trevion Booker
+
+DRAFT PROPOSAL #4
+DATE: 11/13/2025
+
+
+
+
+
+
+Table of Contents
+1.0	Project Understanding	1
+1.1	Project Purpose	1
+1.2	Project Background	1
+1.3	Technical Consideration	2
+1.3.1	Mix Design, Testing, & Construction	2
+1.3.2	Hull Design & Structural Analysis	3
+1.4	Constraints	3
+1.5	Stakeholders	4
+2.0	Scope of Services	6
+2.1	Task 1: Project Preparation	6
+2.1.1	Task 1.1: Project Research	6
+2.1.2	Task 1.2: Sponsorship/Donations	6
+2.1.3	Task 1.3: Lab Safety & Clean-up	6
+2.2	Task 2: Concrete Mix Design	6
+2.2.1	Task 2.1: Material Research	6
+2.2.2	Task 2.2: Material Testing	7
+2.2.3	Task 2.3: Mix Design/Decision Matrix	8
+2.3	Task 3: Hull Design/Hull Decision Matrix	8
+2.3.1	Task 3.1: Design Criteria and Decision Matrix	8
+2.3.2	Task 3.2: Structural Analysis	10
+2.3.3	Task 3.3: 3D Finite Element Analysis	10
+2.4	Task 4: Construction/Fabrication	10
+2.4.1	Task 4.1: Mold	10
+2.4.2	Task 4.2: Stand	10
+2.4.3	Task 4.3: Canoe	11
+2.4.3.1	Task 4.3.1: Concrete Batching	11
+2.4.3.2	Task 4.3.2: Concrete Placement	11
+2.4.3.3	Task 4.3.3: Concrete Finishing	11
+2.5	Task 5: Competition	11
+2.5.1	Task 5.1: Competition Preparation	11
+2.5.2	Task 5.2: Transportation	11
+2.5.3	Task 5.3: Presentation/Display	11
+2.5.4	Task 5.4: Buoyancy/Swamp Test	12
+2.5.5	Task 5.5: Race	12
+2.6	Task 6: Project Impacts	13
+2.7	Task 7: Project Deliverables	14
+2.7.1	Task 7.1: 30% Deliverables	14
+2.7.2	Task 7.2: 60% Deliverables	14
+2.7.3	Task 7.3: 90% Deliverables	14
+2.7.4	Task 7.4: Final Deliverables	14
+2.7.5	Task 7.5: ASCE ISWS Deliverables	14
+2.7.5.1	Task 7.5.1: Proposal and Qualifications Package	14
+2.7.5.2	Task 7.5.2: Technical Execution Package	14
+2.8	Task 8: Project Management	15
+2.8.1	Task 8.1: Schedule Management	15
+2.8.2	Task 8.2: Resource Management	15
+2.8.3	Task 8.3: Meetings	15
+2.9	Exclusions	15
+3.0	Schedule	16
+3.1	Discussion of Schedule	16
+3.2	Critical Path	16
+4.0	Staffing Plan	17
+4.1	Staffing Positions	17
+4.2	Qualification and Responsibilities	17
+4.2.1	Senior Engineer	17
+4.2.2	Project Manager	17
+4.2.3	Engineer In Training	17
+4.2.4	Lab Technician	17
+4.2.5	Quality Manager	18
+4.3	Estimated Hours	18
+5.0	Cost of Engineering Services	19
+6.0	References	20
+7.0	Appendices	21
+
+Table of Figures
+Figure 21 Example Sprint Racecourse Layout [1]	12
+Figure 22 Example Slalom Racecourse Layout [1]	13
+Table of Tables
+Table 11 Concrete and Material Testing Required	3
+Table 41 Staffing Positions	17
+Table 42 Estimated Hours	18
+Table 51 Cost of Engineering Services	19
+
+
+Project Understanding
+Project Purpose
+The purpose of this project is to design, construct, and race a canoe made of concrete. NAU and the Civil Environmental Construction Management Environmental Engineering (CECMEE) ASCE Chapter has provided students the opportunity to compete at the 2025-2026 ASCE Intermountain Southwest Student Symposium (ISWS) and expect competitors to fully design, construct, and race a functional concrete canoe making sure it follows the ISWS rules and guidelines. As per the ASCE Request for Proposal (RFP), this project aims to highlight the versatility and durability of concrete as a construction material to the public and the industry. This will be accomplished by using supplementary cementitious materials and admixtures in a concrete mix that will result in a lightweight concrete with the capability to withstand forces associated with racing. This exemplification of concrete’s diverse application at the competition will promote innovation towards students, educators, and industry professionals. This raised awareness of ASCE’s and national sponsors’ commitment to civil engineering education by displaying the techniques used to create the canoe at the ISWS and showcase civil engineering as a vital and innovative profession to industry leaders and the public. The Concrete Canoe project allows hands-on real-world application of concepts and skills developed throughout the civil engineering course catalog. It will require the team to work together and think outside the box while solving engineering problems that will bring this concrete canoe concept into life and promote innovation for concrete use. Skills such as project planning, communication, and time management skills need to be practiced and used to be successful in this project. This will be done by completing deadlines and objectives set by NAU, ASCE, and the NAU PLUTO Jacks. Working together to determine the best alternative for each aspect of this project will generate new ideas and highlight the different applications of concrete. To make sure this is done, all variables and options will be considered by creating decision matrices for important (big-ticket items) and having thorough team dialogue for smaller items or tasks. The NAU 2026 PLUTO Jacks are the right team to get the job done.
+
+Project Background
+For this project, a canoe will be constructed out of concrete, which is a mixture of coarse aggregates, fine aggregates, cement, water, and air. For this concrete mix design, the performance requirements include compressive and tensile strength and density. These performance requirements will be met by determining parameters such as water/cement ratio, gradation of aggregates, and aggregate type to produce a canoe with high strength and low density. The following ASTM Standards will be utilized for the final mix design: ASTM C136, ASTM C39, ASTM C143, ASTM C1611, and ASTM C496.
+Other performance requirements for the Concrete Canoe design and construction include maneuverability, speed, stability, and buoyancy. Maneuverability (turning ability) will be optimized for the canoe by designing a hull rocker curve with less surface area in the water to resist turning and finding a proper length/width ratio. Speed will be optimized by designing the canoe to be lightweight (thin walls, flared gunwales) and providing a smooth finish on the canoe to reduce drag. Stability, or a canoe’s ability to resist overturning, will be optimized by taking a kneeling position during canoe racing and implementing a shallow-arch bottom and cross-section to best balance stability and tracking. 
+Work involving the construction and testing of the concrete canoe and materials will be done at the NAU CECMEE Field Station (FARM), or the concrete lab within the NAU Engineering Building. Once construction of the concrete canoe is complete, it will be transported to the 2025-2026 ASCE Intermountain Southwest Student Symposium (ISWS) hosted by the University of Utah (located in Salt Lake City, Utah). At this symposium, several student chapters from Arizona, Idaho, Nevada, and Utah will compete by presenting and racing a final constructed concrete canoe to be judged and scored. The competition involves a comprehensive evaluation of written proposals, technical presentation, quality of final physical prototype, and the canoe performance in a series of race competitions. The top qualifying teams from the symposium will get an invitation to ASCE Society finals in Fairmont, West Virginia in June 2026.   
+As part of the ISWS competition, there are design requirements for freeboard and buoyancy that will be assessed. Freeboard is the distance between the top of the canoe and the waterline, which is required to be at least 6 inches by ASCE [1]. At the competition, a Floatation Test will be done to assess the canoe’s buoyancy and freeboard. For a successful Floatation Test, the concrete canoe must be fully submerged and rise back up with a 6-in. freeboard within 2 minutes of being submerged. Also required for the competition according to ASCE is a fully developed Prototype Display to include judged sections on canoe workmanship, cross-section workmanship, display, and durability, along with a five-minute technical presentation. The display requirements include presentation of the hull design process, canoe-cross section, canoe stands, and material and concrete cylinder samples. 
+As part of the ISWS competition, slalom races are done to assess the maneuverability and turning ability of the canoe, while the sprint assesses the speed of the canoe. There are a total of five races including Women’s 200-meter Slalom, Men’s 200-meter Slalom, Women’s 200-meter Sprint, Men’s 200-meter Sprint, and Co-ed 200-meter Sprint.  [1]
+
+Technical Consideration
+Mix Design, Testing, & Construction
+The technical work that will be completed includes the selection of materials that will go into three different concrete mixes accompanied by a separate mix design sheet for each mix. The mixes will then be tested for compressive strength, slump, spread, density, and the aggregate gradation will be tested using a sieve analysis. All material properties will be determined based on applicable ASTM Standards found within Table 11 below. 
+
+Table 11 Concrete and Material Testing Required
+Material/ Concrete Test
+ASTM
+Standard Test Method for Compressive Strength of Cylindrical Concrete Specimens
+ASTM C39 [2]
+Standard Test Method for Slump of Hydraulic-Cement Concrete
+ASTM C143 [3]
+Standard Test Method for Density (Unit Weight), Yield, and Air Content (Gravimetric) of Concrete
+ASTM C138 [4]
+Standard Test Methods for Sieve Analysis of Fine and Coarse Aggregates
+
+ASTM C136 [5]
+Standard Test Methods for Splitting Tensile Strength of Cylindrical Concrete Specimens
+ASTM C496 [6]
+Standard Specification for Concrete Made by Volumetric Batching and Continuous Mixing
+ASTM C685 [7]
+
+These test results will give us the necessary data such as compressive strength, density, workability, and gradation to choose the mix design best suited for the needs of this project. A mold will be designed to fit the specifications needed from the ASCE Concrete Canoe Competition rules and to achieve team goals for hull design. The canoe will be built using a concrete mix design and concrete mold. Concrete will be mixed and placed into the mold, and reinforcement will be added to the canoe during this process. After the concrete has been cured, it will be polished, painted, and sealed to make the canoe aesthetically pleasing. 
+ Hull Design & Structural Analysis
+The requirements for the hull are large enough to carry the space of the team members racing it, strong enough to withstand both the tensile and compressive forces it is put under, stable enough that the canoe does not tip over, buoyant enough that it does not sink, and durable enough that it does not leak or crack. This will be achieved by completing an iterative structural analysis using the data gathered from testing with different shapes, sizes, and reinforcements considered until a successful hull is designed. The hull design will include construction drawings, 3D modeling, and a detailed structural analysis, as required by ASCE. Design decisions for hull geometry, overall shape, structural elements, reinforcement and other notable features will be decided with various performance goals in mind, including stability, maneuverability, turning, straight-line speed, etc. Deliverables for this design include structural calculations for freeboard, max moment/shear, max stresses, moment of inertia, and punching shear that will be done during the structural analysis to ensure the design meets structural requirements for a successful canoe. 
+
+Constraints
+The team anticipates several significant technical challenges during the process of this project. The central design constraints of a minimum 6-in. freeboard and maximum 80 lb/ft3 unit weight of concrete are primary technical constraints. A denser mix design requires a larger hull volume to achieve the necessary buoyant forces, caused by displaced water volume, and makes meeting the freeboard requirements more difficult. Our primary goal is to create a concrete mix design that is both lightweight and high strength. The canoe must be designed to withstand complex load cases defined in our analysis, including static loads from the paddlers and canoe weight, dynamic loads generated during races, and handling the stress during transportation. The canoe must be designed to withstand a variety of complex load cases. This includes static loads from the weight of the concrete and paddlers while in the water, as well as the dynamic loading from the forces of the paddlers during racing and stress induced during transportation and handling. Accounting for these forces accurately and ensuring the structural analysis of accounts for them is critical to prevent failure of the canoe. The challenge lies in balancing these competing properties while following the restrictive material specification of the RFP that has been provided to us by ASCE. This requires extensive testing and refinement to create a compliant, high-performance composite. The RFP has several material requirements, that will determine the concrete mix design of the canoe. The total volume of aggregates must be at least 35% of the total concrete volume. In addition, c/cm (cement to cementitious materials ratio) must be less than or equal to 40. These rules combined with a unit weight limit require a sophisticated team of engineers. As identified in our background research, the canoe must be designed for complex load cases, requiring detailed analysis to prevent failure. The static load governs the maximum bending moment and shear, representing the canoe afloat with four paddled for co-ed. The dynamic loading is unpredictable stress generated during racing form the paddling force, maneuverability while truing and potential water waves. Additional logistical challenges include arranging safe transportation of the final prototype of the Canoe to Salt Lake City. The transportation loading is stressed during lifting and handling the canoe out of water; it acts as a slender beam supported at certain random points. 
+
+Stakeholders
+The successful execution of this project depends upon effective communication and collaboration with a diverse group of stakeholders. The primary stakeholders are, NAU Concrete Canoe Capstone Team Members, NAU CECMEE faculty and Staff, Technical Advisor, and Client, Mark Lamer. 
+The client, Mark Lamer, represents the NAU Capstone Design program, who provides guidance, technical oversight, and academic evaluation. The NAU Faculty, including Grading Instructor and Technical Advisor, play a critical role as stakeholders who provide technical oversight, access to university resources such as labs, mentorship, and academic evaluation.  
+For competition evaluation, the ASCE and Committee on Concrete Canoe Competition (C4) act as the project client. They define the problem statement, rules, and evaluation criteria through the official RFP. The panel of judges at the ISWS, composed of professionals within fields adjacent to the competition, evaluates all project deliverables and determines the competition rankings. 
+As representatives of NAU’s ASCE Student Chapter during this competition, NAU would be considered a stakeholder as its image is dependent on the team’s ability to conduct themselves professionally. Similarly, the Steve Sanghi College of Engineering and Department of Civil Engineering, Construction Management, and Environmental Engineering (CECMEE) are also a stakeholder as they are also influenced by the team’s ability to act professionally but are also more so impacted by the capstone team’s actual performance within the competition. 
+Sponsors and Donors are also stakeholders as their monetary and material donations will heavily influence the construction and design of the canoe. This includes both those acquired by the Concrete Canoe Capstone’s own efforts as well as those acquired through ASCE.  With their contributions in mind, they will also be featured on the team’s concrete canoe shirt, allowing for more exposure for their company that would be impacted by the team's performance. 
+The local Arizona Chapter of the American Concrete Institute (ACI) and other industry professionals who provide technical mentorship, expertise and potential material donations to complete the project would also be stakeholders. 
+Scope of Services 
+Task 1: Project Preparation
+Task 1.1: Project Research
+Project research is conducted to provide preliminary information to engineers regarding common trends among lightweight high-strength mix designs and structural analysis. Project research begins by first examining past concrete canoe designs to gauge trends that have led to successful canoes and identify improvements that have been made throughout the years. The competition rules will be carefully read and followed to ensure the canoe meets the design criteria and ensure all requirements are met. In addition, the academic knowledge of concrete properties, mix design, and structural behavior will be used to develop a high performing solution. These elements will help us create a design that is both innovative and competitive.
+Task 1.2: Sponsorship/Donations
+Sponsorship and donations will be sought in order to fund and facilitate the testing of materials and construction of the canoe and display. For the concrete canoe sponsorship, a professional brochure will be created to highlight our goals, team, and the benefits of sponsorship. Previous concrete canoe sponsors will be considered and contacted again since they are familiar with the work and impact. Additionally, connections that have been gained throughout will be contacted. Another way would be by creating a club because ASCE allocates a certain amount of money to each club on a yearly basis. Strong partnerships are needed to secure the funding that is needed.
+Task 1.3: Lab Safety & Clean-up
+The purpose of the lab safety and cleanup plan is to maintain a safe, organized, and environmentally responsible workspace throughout the project. That will be done by keeping the farm clean and organized throughout the project. All the materials and chemicals will be properly and clearly labeled and tracked to ensure proper usage and inventory management. Any harmful or dangerous substances/chemicals will be disposed of properly using the safety procedures in place. Lastly, all team members will be kept up to date on safety protocols to ensure safety is the top priority. This will all be monitored and maintained using the Lab Safety Binder required by NAU Environmental Health and Safety (EH&S).
+
+Task 2: Concrete Mix Design
+Task 2.1: Material Research
+Material research is necessary for the team to determine the proper methods and materials to be used for the project. In consideration of past concrete canoe teams’ successes, research into the mix design ratios of past winners will be conducted and analyzed to determine if they qualify for this year’s competition. From there, using engineering judgement and further background research using scholarly articles into other applicable materials will inform the materials used within the concrete mix design. Several constraints exist and will be considered in the selection of materials and in their implementation ratios. This includes a maximum ratio of 0.40 (by mass) c/cm (cement to total cementitious materials) [1]. There is a maximum ratio by mass of hydrated lime of 0.05 with an additional cap that the max ratio of hydrated lime and cement be 0.40 [1]. Total aggregate volumes must constitute at least 0.35 of the concrete mix design [1]. All cementitious materials and admixtures will be in compliance with respective ASTM’s outlined in the ASCE 2026 Concrete Canoe Competition RFP (Exhibit 5. Technical Specifications for Concrete and Reinforcement) [1]. 
+Task 2.2: Material Testing
+The purpose of material testing is to ensure that all material properties such as strength, unit weight, buoyancy, slump, and gradation meet the minimum requirements for a successful canoe, or to ensure the canoe will not fail. The following testing will be completed as part of the concrete mix design to determine strength, weight, and constructability factors used to decide a final mix design. 
+Compressive Strength Testing
+In accordance with ASTM C39, concrete cylinders containing initial mix designs will be tested to ensure that they meet the minimal compressive strength required by the structural analysis. Six cylinders will be made for each mix design and broken at intervals of seven days and fourteen days, until a final mix is decided to be tested for twenty-eight days for a total of twenty-one cylinders to be tested for compressive strength across the entire design period 
+Slump Testing
+In accordance with ASTM C143, the slump of each concrete mix design will be tested, in inches, to determine the workability of the different concrete mix designs for construction. A total of three slump tests will be performed, one for each mix design. 
+Unit Weight
+In accordance with ASTM C138, the actual dry density and wet density of the concrete mix designs and actual wet density will be determined by weighing the concrete after curing and immediately after pouring. The actual dry density will then be compared with theoretical dry density of the concrete mixes, calculated based on the measured material properties, to determine the air content within each mix. The oven dried concrete mix designs are expected to have a unit weight less than 80 pounds per cubic feet (PCF). This will be done for each preliminary mix design’s compressive strength cylinders, 21 total, resulting in a diverse set of unit weight to accurately gauge each mix’s density. 
+Sieve Analysis
+There are no aggregate gradation constraints; however, particle size distribution must be tested and created by the concrete canoe competition team. The particle size distribution must be conducted in accordance with ASTM C136. It must also be noted if the particle distribution is obtained through recombination or if the gradation was obtained commercially. A sieve analysis will be completed for each of the three mix designs considered.
+Tensile Strength Testing
+In accordance with ASTM C496, concrete cylinders containing initial mix design will be tested to ensure that they meet the minimal tensile strength required by the structural analysis. Three cylinders will be made for each mix design will be broken twenty-eight days for a total of 9 cylinders made and tested for each mix’s tensile strength. 
+Task 2.3: Mix Design/Decision Matrix
+The purpose of this task is to decide on the most optimal mix design to be used for the final canoe prototype. A decision matrix to select the final mix design will be made by assigning different weights to the criteria based on the importance of each item. The ability to meet these criteria produces a higher score and the mix with the highest score will be used in the hull design and construction phases of the project. The decision matrix for the final mix design will likely include the following criteria. 
+Compressive Strength
+The compressive strength of the mix must be able to resist the forces the canoe is put under due to the weight of the paddlers and the buoyant forces.
+Tensile Strength
+The tensile strength of the mix must be able to resist the bending forces the canoe is put under due to the self-weight of the canoe and the weight of paddlers.  
+Cost
+The cost of each concrete mix would be weighed and decided based on the unit costs of material required to make either a cubic foot or yard of each concrete mix design.  
+Constructability
+The constructability of each concrete mix will be decided based on the observed slump of the concrete as well as the observed ability of each mix concrete's ability to adhere to expected mold and building materials.
+Density
+The density of each concrete mix will be considered to ensure compliance with competition specifications (less than 80 PCF) with lighter mix designs considered favorable. 
+Environmental Impacts
+The environmental impacts associated with the selection of the proportion of concrete in each design will inform the selection of the final mix design.
+A final mix design will be selected based on the score of 3 initial mix designs using a decision matrix. This mix will then be used to construct the full-scale concrete canoe prototype to be raced at ISWS.
+
+Task 3: Hull Design/Hull Decision Matrix
+Task 3.1: Design Criteria and Decision Matrix
+Similar to the mix design, a separate decision matrix for hull design will be completed to ensure the final hull design that is most optimal for competition is chosen.  There will be 3 hull geometry designs to include different elements or criteria which are listed below. Each element of the hull geometry and design will be assessed in terms of speed, maneuverability, and stability using a decision matrix. The decision matrix for the final hull design will likely include the following criteria. 
+
+Geometry
+The overall geometry of the canoe, affecting its maneuverability and stability, will be considered as a single item within the decision matrix. This means how suitable the geometry (cross-section, rocker shape, length, and width) is to provide maximum efficiency. A wider hull and flat bottom design will increase stability by better distributing the weight of the canoe and preventing tipping of the canoe. Length of the canoe will be weighed after ascertaining the goal of canoe with the ability to maintain straight courses benefited by longer canoes and maneuverability benefitted by shorter canoes. Width and cross section face shapes will be considered in determining the stability of the canoe after ascertaining the operational objective desired. Wider canoes offer more stability while requiring more effort to paddle while differing cross section faces affect stability and resistance to capsizing. Height/Rocker of the Canoe will be considered after ascertaining the goal of the canoe. Canoes with more height allow for more freeboard, while more rockers allow for maneuverability. 
+Length
+Length of the canoe will be weighed after ascertaining the goal of canoe with the ability to maintain straight courses benefited by longer canoes and maneuverability benefitted by shorter canoes.
+Width/Cross Section Face
+Width and cross section face shapes will be considered in determining the stability of the canoe after ascertaining the operational objective desired. Wider canoes offer more stability while requiring more effort to paddle while differing cross section faces affect stability and resistance to capsizing. 
+Height/Rocker
+Height/Rocker of the Canoe will be considered after ascertaining the goal of the canoe. Canoes with more height allow for more freeboard, while more rockers allow for maneuverability.
+Cost
+The cost of each canoe design will be considered based on the required cubic foot of concrete needed to construct the canoe to decide upon a final hull design.
+Aesthetics
+The aesthetics of each canoe hull design will be considered when deciding upon each canoe hull design. The overall canoe shape can have a significant impact on aesthetic appeal. 
+Constructability
+The difficulty of canoe construction will be considered when deciding on a final hull design. Designs with more complex shapes or cross-sections will be more difficult to construct, which should be considered for a final design.
+A final hull design will be chosen based on the best weighted score for all sections, with weights determined based on engineering judgement. 
+Task 3.2: Structural Analysis
+A structural analysis of the canoe hull will be done to ensure that the hull can withstand the required load (dead, live, and wind load) without failure. As a requirement of the competition, a 2D analysis of the concrete canoe will be conducted, considering the minimum required compressive strength, tensile strength, and punching shear stress. The canoe hull must pass the following structural analysis items before it can be considered for the final hull design. 
+Compressive Strength
+A minimum required compressive strength will be determined and used in conjunction with any applicable Load Factors (LF’s) and Factors of Safety (FS’s). Failure for a hull design to require infeasible concrete mix design strengths will lead an automatic failure and must be adjusted before being considered within the decision matrix.
+Tensile Strength
+A minimum required tensile strength will be determined and used in conjunction with any applicable LF’s and FSs to determine necessary material properties of concrete mix design. Failure for a hull design to require infeasible concrete mix design strengths will lead an automatic failure and must be adjusted before being considered within the decision matrix. 
+Punching Shear Strength
+The punching shear strength of the canoe will be determined to determine the necessary material properties of concrete mix design necessary to construct the canoe with applicable LF’s and FS’s. Failure for a hull design to require infeasible concrete mix design strengths will lead an automatic failure and must be adjusted before being considered within the decision matrix.
+Task 3.3: 3D Finite Element Analysis
+To validate the 2D model and provide a more realistic and in-depth visual representation of the forces acting on the canoe, a finite element analysis will be conducted. A comparison of these results will be done in order to comply with RFP requirements. 
+
+Task 4: Construction/Fabrication
+Task 4.1: Mold
+To construct the prototype in real life, a mold must be made according to the hull design specifications for the chosen concrete mix to be formed around. The canoe mold will be built using wood, foam, and power tools. A combination of wood and foam will be measured, cut and fit together to the specifications of the hull design. Concrete will be placed using mold. 
+Task 4.2: Stand
+To display the canoe in an exemplary professional and aesthetic manner during the presentation portion of ISWS, a stand will be prepared. This stand is meant to fully display as much of the canoe as possible for evaluation. The stand will be built using wood and power tools. The wood will be fitted together to hold the canoe during inspection for the ASCE competition. The stand must have a height of approximately 4 feet so that the entire canoe, including underside, can be visible for inspection [1]. 
+Task 4.3: Canoe
+Task 4.3.1: Concrete Batching
+Concrete will need to be batched in bulk so there is enough ready to be placed during construction. The concrete will be batched following the ASTM C685 - Standard Specification for Concrete Made by Volumetric Batching and Continuous Mixing [7]. Each material will be measured by volume following the mix design specifications and mixed using a concrete mixer.
+Task 4.3.2: Concrete Placement
+The batched concrete will need to be placed using the mold so that it meets the proper specifications of the hull design. Concrete will be placed over the mold constructed using a concrete sprayer. At this time reinforcement such as wire mesh will be placed with the concrete in layers to add to the tensile strength of the concrete.   
+Task 4.3.3: Concrete Finishing
+The canoe will need to be finished so there are no blemishes, apparent cracks, or holes, seeing that canoe aesthetics and workmanship are assessed during competition. The canoe will be polished using power tools and a diamond grinder for a smooth finish. Any imperfections or holes will be sanded down or patched, and the team's name will be painted onto the top 6-in as well as any other desired colors or images, and a sealant will be added.
+
+Task 5: Competition 
+  Task 5.1: Competition Preparation
+In order to ensure optimal performance during the racing portion of the competition, preparation for the competition will include regular canoeing and rowing practices to build teamwork, coordination, and endurance. The practices will be used to get to know how the canoe handles and improve performance during the race, mentees will also be contacted to gather any tips and tricks from prior experiences and fill out the race team requirements that our team does not currently meet. These insights will help to prevent any avoidable mistakes and create a winning strategy with practice and guidance.
+  Task 5.2: Transportation
+To make sure the Concrete Canoe gets transported safely, extra precautions will be taken to avoid any damage or errors during the process. The NAU trailer will be used as the primary transportation carrier for the Concrete Canoe. Analysis from prior concrete canoe teams will be done to see what was done to get the Concrete Canoe safely to the competition location and avoid any mistakes that have happened prior.
+Task 5.3: Presentation/Display
+In order to meet ASCE competition requirements, the team will create and deliver a 5-minute technical presentation, followed by 7-minutes questions and answer sessions with the judges [1]. The presentation goal is to convince the judges that the team’s design is the best solution to RFP’s problem statement. Simultaneously, a prototype display will be assembled with a 4 ft x 8 ft x 7ft stand. This display will feature the canoe on stands, a full-scale labeled cross section of the canoe and mold, used materials samples and the project infographic. During the display evaluation, the team will deliver a brief pitch to highlight the key project innovation.  
+Task 5.4: Buoyancy/Swamp Test
+Prior to the races on canoe day, the canoe must pass the flotation test to ensure the canoe is buoyant, structurally stable, and safe enough to race. The team completely submerges the canoe in the water, which must float back near the water's surface within two minutes. Passing this test is required for the race without penalty. Failure to pass the buoyancy test on first attempt will result in a deduction to the final prototype score, and teams will be required to add an external floating device until the canoe passes the buoyancy test.
+Task 5.5: Race
+In order to assess the canoes speed, stability, and maneuverability, the team will compete in five race events at the ASCE Student Symposium: women's 200-meter slalom, men's 200-meter slalom, women's 200-meter sprint, men's 200-meter sprint, and co-ed 200-meter sprint to be evaluated. The two proposed racecourse layouts are provided in the figures below. All the paddles are required to be competent swimmers and wear U.S Coast Guard approved Personal Flotation Devices (PFDs) at all times on the water. The team will follow all the race regulations and safety protocols to avoid time penalties or disqualification. 
+
+Figure 21 Example Sprint Racecourse Layout [1]
+
+Figure 22 Example Slalom Racecourse Layout [1]
+
+Task 6: Project Impacts
+All project impacts, both negative and positive, will be assessed throughout the project to make sure general health and safety is maintained. It is an engineer’s responsibility to maintain public welfare, so the following project impacts will be assessed.
+Environment
+The environmental impacts of the project will be evaluated throughout the course of its duration. This will include impacts associated with all parts of the design and construction periods, as well as post construction.
+Public Health
+An evaluation of the Public Health Impacts will be done throughout the course of the project. This will include immediate health impacts, as well as long-term public health impacts from design, construction, and use.
+Economy/Society
+The impacts of the Concrete Canoe Competition, from a material since, to ideological will be analyzed throughout the project’s durations. This includes potential impacts to the Economy and Society as the project progresses and continued impacts after completion. This evaluation of impacts will include an evaluation of the goals completed within Request for Proposal.
+Global
+All global impacts of the design, testing, and construction of the concrete canoe will be assessed throughout the project's duration. Possible global impacts for this project are negligible but include greenhouse gas emissions involved with cement and concrete production and use and impacts on the concrete industry (emerging technologies). 
+
+Task 7: Project Deliverables
+Task 7.1: 30% Deliverables
+This task ensures that the team receives corrections and feedback prior to subsequent submittals. It includes a detailed report and presentation of the work that has been and will be completed during this project up to 30% finished. The tasks that will be completed up to this point include Task 1: Project Preparation and Task 2: Concrete Mix Design. 
+Task 7.2: 60% Deliverables
+This task ensures that the team receives corrections and feedback prior to subsequent submittals. It includes a detailed report and presentation of the work that has been and will be completed during this project up to 60% finished. The tasks that will be completed up to this point include Task 1: Project Preparation, Task 2: Concrete Mix Design, Task 3: Hull Design/Decision Matrix, as well as Task 4: Construction/Fabrication.
+Task 7.3: 90% Deliverables
+This task ensures that the team receives corrections and feedback prior to subsequent submittals. It includes a detailed report and website displaying the work that has been and will be completed during this project up to 90% finished. The tasks that will be completed up to this point include Task 1: Project Preparation, Task 2: Concrete Mix Design, Task 3: Hull Design/Decision Matrix, Task 4: Construction/Fabrication, and Task 5: Competition.
+Task 7.4: Final Deliverables
+The purpose of this task is to provide a final representation of all project results. It includes a detailed report, presentation, poster, and website displaying the work that has been completed during this project 100% finished. The tasks that will be completed up to this point include Task 1: Project Preparation, Task 2: Concrete Mix Design, Task 3: Hull Design/Decision Matrix, Task 4: Construction/Fabrication, Task 5: Competition, and Task 6: Project Impacts.
+Task 7.5: ASCE ISWS Deliverables
+Task 7.5.1: Proposal and Qualifications Package
+ASCE requires that a Proposal and Qualifications Package be completed before the competition to include all details for our team and how we expect to complete the project. This must be submitted to ASCE by November 2, 2025.
+Task 7.5.2: Technical Execution Package
+ASCE requires that a Technical Execution Package, Mix Design Sheet, and full-scale Concrete Canoe Prototype be completed before the competition to include all details for the mix design, hull design, structural analysis, and construction of the canoe. Includes a comprehensive overview of all the technical work that has been done to complete this project including calculations, construction drawings, mix design sheets, and materials notebook to be submitted by February 12, 2026, to ASCE.
+
+Task 8: Project Management
+Task 8.1: Schedule Management
+A schedule of tasks will be developed to keep track of project progress as tasks are completed. A Gantt chart will be used to display this schedule. This Gantt chart will be regularly updated and revised when any task, timing, or duration changes occur for the project. 
+Task 8.2: Resource Management
+To successfully manage this project and ensure affordability, a budget analysis will be completed. The concrete canoe team will be responsible for acquiring funds and allocating funds for acquisition of concrete materials, construction tools and materials, and Conference coordination and transportation. Budget and available materials will be tracked using shared team spreadsheets.  
+Task 8.3: Meetings
+This project requires several meetings with the team, grading instructor (GI), technical advisor (TA), and client throughout the project duration for the purpose of maintaining communication and staying on schedule. The team is required at least 1 Client meeting, 6 TA meetings, and 5 team meetings, where additional meetings will be held as needed. GI meetings will be held weekly. A meeting agenda and meeting minutes will be prepared for each meeting, detailing what was discussed in the meeting and what the next steps for the project are. These meeting minutes and agendas will be compiled into a final meeting minutes binder to keep track of all meeting information and deliverables.
+
+Exclusions
+The only exclusions for this project are the full annual ASCE Student Chapter Report and Dues Payment Report, which are required for a team to participate in the ISWS competition. These will be completed by the ASCE student chapter secretary and treasurer and are not the responsibility of the Concrete Canoe Team.
+Schedule
+Discussion of Schedule
+The total duration of this project is expected to be 236 days long, beginning on September 15th, 2025, and ending on May 8, 2026. A more detailed view of the schedule, containing each specific task’s expected beginning and end date and relation to the project as a whole, can be found within Appendix A, the Gantt chart. 
+Identified major tasks for this project include Project Preparation, Concrete Mix Design, Hull Design & Structural Analysis, Construction & Fabrication, Competition, Project Impacts, Project Deliverables & Reports, and Project Management. Several project deliverables, or milestones denoted by diamonds, ♢, can be seen with the schedule. This includes both project submittals to be completed within CENE 486C and submittals required per the competition’s Request for Proposal. The Milestones previously referenced include the 30%, 60%, 90%, and Final Report deliverables required by CENE 486C, as well as the Proposal and Qualifications Package and Technical Execution Package required by ASCE. 
+Critical Path
+Critical path items are tasks necessary to continue progress throughout a project. Should a critical path item not be completed on time, the final completion date of the project will also be delayed a transitive amount. The critical path is the most important steps/tasks that must be completed to keep the project on schedule. This includes tasks that need to be completed before progressing to subsequent tasks, or tasks that are necessary for the actual completion of the project. Should a critical path item not be completed on time, the final completion date of the project will also be delayed a transitive amount. 
+The critical path for this project can is shown in red on the Gantt chart of Appendix A. The Pluto Jacks team plans on maintaining timing and duration of all items on the critical path by regularly updating the Gantt chart as the team progresses, as well as keeping a shared Excel spreadsheet where team members will log work/lab hours to keep track of task duration. 
+The takeaway from this critical path is that Task 2: Concrete Mix Design, Task 3: Hull Design/Hull Decision Matrix, and Task 4: Construction/Fabrication are the most critical tasks, where the team must be especially diligent. This is because these are the most time consuming and work heavy tasks along the critical path with the most “pinch points,” or tasks that could potentially delay subsequent tasks on the critical path. These pinch points include Task 2.2: Material Testing, Task 3.2: Structural Analysis, and Task 4.3: Canoe because all these tasks have a potential for critical errors during design, testing, and construction. In other words, if there are any issues that arise during these tasks (canoe fails strength test, bad concrete batch, etc.), it could cause significant delay to the project, so these tasks must be given extra attention. 
+Staffing Plan
+Staffing Positions
+The project involves five professional staff positions including Senior Engineer (SENG), Project Manager (PM), Engineer in Training (EIT), Lab Technician (TECH), Quality Manager (QM). The table below is the list of professional and non-technical employees with abbreviation. 
+
+Table 4.1 Staffing Positions
+Staff Title
+Abbreviation
+Senior Engineer
+SENG
+Project Manager
+PM
+Engineer in Training
+EIT
+Lab Technician
+TECH
+Quality Manager
+QM
+
+Qualification and Responsibilities 
+Senior Engineer
+The Senior Engineer (SENG) has at least 15 years of experience as a Structural Engineer, with licensed Professional Engineer (PE). The engineer will be responsible for overseeing the project's technical work, including approval for each major task, and serve as final technical authority on structural analysis, concrete mix design, and hull design. 
+ Project Manager 
+The Project Manager (PM) has at least 5 years of experience in Research and Development (R&D) and Construction Schedules, with licensed Professional Engineer (PE). The Project Manager will be responsible for creating project plans, monitoring team progress, and point of contact between the client and university. The primary role of project manager is to delineate and develop a project schedule as well as handle risk management and resource allocation. 
+Engineer In Training 
+The Engineer in Training (EIT) has entry level experience with technical tasks, modeling programs such as RISA, Finite Element, and Solid Works. The EIT is responsible for assisting with structural modeling and hull design. EIT performs general tasks under the senior engineer and lab technicians, including material handling and shop/construction drawings. 
+Lab Technician
+The Lab Technician (TECH) has experience in required standardized material testing according to ASTM standards and material procurement. The TECH is responsible for ASTM testing concrete cylinders, material pickup, and acquire required PPE. The primary task of TECH will be organizing the required material inventory and preparing pre-weighted material batches for mix design testing for efficiency.
+Quality Manager 
+The Quality Manager (QM) has experience in QC/QA and reviewing technical submissions for RFP compliance. The QM is responsible for implementing quality control and assurance during concrete pour and mold construction, including team members understanding and following all the competition guidelines and technical submission.     
+
+Estimated Hours
+The staffing matrix provides the required estimated hours for five professional staff positions for each task and subtask. The staffing plan uses five professional staff positions. The table below provides a staffing position summary. A complete table of estimated hours including all subtasks can be found in Appendix B- Complete
+Table 4.2 Estimated Hours
+Task Name
+SENG (Hrs)
+PM (Hrs)
+EIT (Hrs)
+TECH (Hrs)
+QM (Hrs)
+Subtotal (person-hours)
+Task 1: Project Preparation
+5
+15
+10
+10
+10
+50
+Task 2: Concrete Mix Design
+15
+20
+40
+60
+40
+185
+Task 3: Hull Design/Structural Analysis
+15
+10
+35
+5
+15
+100
+Task 4: Construction/Fabrication
+10
+20
+40
+45
+40
+160
+Task 5: Competition
+2
+10
+15
+5
+10
+42
+Task 6: Project Impacts
+3
+10
+10
+0
+10
+35
+Task 7: Project Deliverables
+15
+35
+40
+15
+10
+120
+Task 8: Project Management
+5
+20
+10
+4
+10
+49
+Summary Line: Total Hours
+70
+140
+200
+144
+145
+741
+
+
+Cost of Engineering Services
+The table below is a summary of the cost of the work that will be done during this project. The billing rates include salaries, benefits, and overhead. Section 1.0 Personnel includes the classification, number of hours, billing rate and cost of the personnel that will be working on the project both individually and as a whole. Section 2.0 Travel includes the cost of travel for the team to the ISWS in Salt Lake City from Flagstaff. Section 2.1 Overnight includes the cost of rooms for the team for two nights during the ISWS competition. Section 3.0 includes the cost of materials that will be used to make the concrete mix for the canoe. Section 3.1 Lab/Equipment Rental includes the rental of NAU’s lab and equipment for use in the testing of concrete mix designs and construction of the mold, stand, and canoe. Section 4.0 Subcontract includes any subcontracting work that will be done. Section 5.0 Total includes the amounts for each section added together for the total cost of the work that will be done. 
+
+Table 5.1 Cost of Engineering Services
+1.0 Personnel
+Rate, $/Unit
+Quantity
+Unit
+Subtotal
+SENG
+$120
+112
+HR
+$13,440
+PM
+$80
+140
+HR
+$11,200
+EIT
+$40
+200
+HR
+$8,000
+TECH
+$50
+144
+ HR 
+$7,200
+QM
+$40
+145
+HR
+$5,800
+Total Personnel
+
+
+
+$45,640
+2.0 Travel
+$0.7/mile
+1000
+MILE
+$700
+2.1 Van Rental
+$62/day
+4
+DAY
+$248
+2.2 Overnight
+120$/night
+10
+Room-Night
+$1,200
+3.0 Supplies
+2000$
+1
+LS
+$2,000
+3.1 Lab/Equipment Rental
+100$/day
+28
+DAY
+$2,800
+3.2 Materials
+2000$
+1
+LS
+$2,000
+4.0 Total
+
+
+
+$54,588
+
+
+
+
+References
+
+[1] 
+ASCE, "ASCE 2026 Concrete Canoe Competition Request For Proposals," [Online]. Available: https://www.asce.org/-/media/asce-images-and-files/communities/students-and-younger-members/documents/2026-asce-concrete-canoe-competition-request-for-proposals-v2.pdf. [Accessed 30 September 2025].
+[2] 
+ASTM, "Standard Test Methods for Compressive Strength of Cylincrical Concrete Specimens," ASTM, 15 December 2023. [Online]. Available: https://compass.astm.org/content-access?contentCode=ASTM%7CC0039_C0039M-21%7Cen-US. [Accessed 30 September 2025].
+[3] 
+ASTM, "Standard Test Methods for Slump of Hydraulic-Cement Concrete," ASTM, 14 July 2020. [Online]. Available: https://compass.astm.org/content-access?contentCode=ASTM%7CC0143_C0143M-20%7Cen-US. [Accessed 30 September 2025].
+[4] 
+ASTM, "Standard Test Methods for Density (Unit Weight), Yield, and Air Content (Gravimetric) of Concrete," ASTM, 22 August 2023. [Online]. Available: https://compass.astm.org/content-access?contentCode=ASTM%7CC0138_C0138M-17A%7Cen-US. [Accessed 30 September 2025].
+[5] 
+ASTM, "Standard Test Methods for Sieve Analysis of Fine and Coarse Aggregates," ASTM, 11 February 2015. [Online]. Available: https://compass.astm.org/content-access?contentCode=ASTM%7CC0136-06%7Cen-US. [Accessed 30 September 2025].
+[6] 
+ASTM, "Standard Test Methods for Splitting Tensile Strength of Cylincrical Concrete Specimens," ASTM, 16 August 2017. [Online]. Available: https://compass.astm.org/content-access?contentCode=ASTM%7CC0496-96%7Cen-US. [Accessed 30 September 2025].
+[7] 
+ASTM, "Standard Specification for Concrete Made by Volumetric Batching and Continuous Mixing," ASTM, 13 August 2024. [Online]. Available: https://compass.astm.org/content-access?contentCode=ASTM%7CC0685_C0685M-17%7Cen-US. [Accessed 29 October 2025].
+
+
+
+Appendices
+Appendix A- Gantt Chart
+
+Appendix B- Complete Estimated Hours
+Task Name 
+SENG (Hrs)
+PM (Hrs)
+EIT (Hrs)
+TECH (Hrs)
+QM (Hrs)
+Subtotal (person-hours)
+Task 1: Project Preparation 
+
+
+
+
+
+
+   Task 1.1: Project Research 
+3
+10
+5
+9
+3
+
+   Task 1.2: Sponsorship/Donations 
+1
+3
+3
+0
+1
+
+   Task 1.3: Lab Safety & Clean-up 
+1
+2
+2
+1
+6
+50
+Task 2: Concrete Mix Design 
+
+
+
+
+
+
+   Task 2.1: Material Research 
+10
+6
+10
+20
+10
+
+   Task 2.2: Material Testing  
+9
+8
+10
+20
+15
+
+   Task 2.3: Mix Design/Decision Matrix 
+6
+6
+20
+20
+15
+185
+Task 3: Hull Design/Hull Design Matrix
+
+
+
+
+
+
+   Task 3.1: Design Criteria and Decision Matrix 
+10
+4
+13
+3
+5
+
+   Task 3.2: Structural Analysis 
+12
+3
+12
+1
+5
+
+   Task 3.3: 3D Finite Element Analysis 
+13
+3
+10
+1
+5
+100
+Task 4: Construction/Fabrication 
+
+
+
+
+
+
+   Task 4.1: Mold 
+1
+5
+12
+10
+5
+
+   Task 4.2: Stand 
+1
+4
+10
+5
+5
+
+   Task 4.3: Canoe 
+
+
+
+
+
+
+      Task 4.3.1: Concrete Batching 
+7
+4
+6
+10
+10
+
+      Task 4.3.2: Concrete Placement  
+4
+4
+6
+10
+10
+
+      Task 4.3.4: Concrete Finishing 
+2
+3
+6
+10
+10
+160
+Task 5: Competition 
+
+
+
+
+
+
+   Task 5.1: Competition Preparation 
+2
+2
+3
+3
+3
+
+   Task 5.2: Transportation 
+0
+5
+8
+0
+0
+
+   Task 5.3: Presentation/Display 
+0
+1
+1
+0
+3
+
+   Task 5.4: Buoyancy/Swamp Test 
+0
+1
+1
+1
+4
+
+   Task 5.5: Race 
+0
+1
+2
+1
+0
+42
+Task 6: Project Impacts 
+5
+10
+10
+0
+10
+35
+Task 7: Project Deliverables 
+
+
+
+
+
+
+   Task 7.1: 30% Deliverables 
+3
+8
+8
+2
+2
+
+   Task 7.2: 60% Deliverables 
+5
+8
+8
+2
+2
+
+   Task 7.3: 90% Deliverables 
+5
+8
+9
+5
+2
+
+   Task 7.4: Final Deliverables 
+5
+9
+9
+4
+2
+
+   Task 7.5: ASCE ISWS Deliverables 
+
+
+
+
+
+
+      Task 7.5.1: Proposal and Qualifications Package 
+1
+1
+3
+1
+1
+
+      Task 7.5.2: Technical Execution Package 
+1
+1
+3
+1
+1
+120
+Task 8: Project Management  
+
+
+
+
+
+
+   Task 8.1: Schedule Management  
+1
+2
+3
+0
+4
+
+   Task 8.2: Resource Management  
+1
+15
+4
+1
+3
+
+   Task 8.3: Meetings 
+3
+3
+3
+3
+3
+49
+Total Hours
+112
+140
+200
+144
+145
+741
+

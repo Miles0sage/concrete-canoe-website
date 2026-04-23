@@ -1,0 +1,867 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Information - NAU Concrete Canoe 2026</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800&family=Open+Sans:wght@300;400;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="header-container container">
+            <a href="index.html" class="logo"><img src="images/project/NAU-LOGO.png" alt="NAU Logo" class="logo-img">
+                PLUTO
+                Jacks</a>
+            <div class="nav-dropdown">
+                <button class="nav-toggle" aria-label="Navigation Menu">Home</button>
+                <div class="dropdown-menu">
+                    <a href="index.html">Home</a>
+                    <a href="team.html">Meet The Team</a>
+                    <a href="video.html">PLUTO Jacks Engineering Video</a>
+                    <a href="project-info.html">Project Information</a>
+                    <a href="design.html">Design</a>
+                    <a href="documents.html">Documents</a>
+                    <a href="gallery.html">Gallery</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1 class="animate-fade-up">Project Information</h1>
+            <p class="animate-fade-up">Detailed overview of the NAU 2026 Concrete Canoe Project</p>
+
+        </div>
+    </section>
+
+    <!-- FontAwesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Project Information Section with Flagstaff Background -->
+    <section class="section project-info-section">
+
+        <!-- Horizontal Tab Navigation (Sticky) -->
+        <nav class="project-tabs-nav">
+            <div class="container">
+                <ul class="project-tabs">
+                    <li><a href="#description" class="tab-link active">Description</a></li>
+                    <li><a href="#constraints" class="tab-link">Constraints</a></li>
+                    <li><a href="#tasks" class="tab-link">Tasks</a></li>
+                    <li><a href="#gantt" class="tab-link">Schedule</a></li>
+                    <li><a href="#staffing" class="tab-link">Staffing</a></li>
+                    <li><a href="#cost" class="tab-link">Cost</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- Content Container with Background -->
+        <div class="project-content-wrapper">
+            <div class="container">
+
+                <!-- ROW 1: Project Description -->
+                <div class="project-row" id="description">
+                    <div class="dashboard-card">
+                        <div class="card-header">
+                            <i class="fa-solid fa-rocket card-icon"></i>
+                            <h2>Project Overview: The Pluto Jacks</h2>
+                        </div>
+                        <div class="description-layout">
+                            <div class="description-text">
+                                <p>The 2026 NAU Concrete Canoe project challenges students to push the boundaries of
+                                    material science. Our objective is to design, construct, and race a fully functional
+                                    canoe made entirely of concrete. The project culminates at the 2025-2026 ASCE
+                                    Intermountain Southwest Student Symposium (ISWS).</p>
+
+                                <h3 style="color: #fff; margin-top: 1.5rem; margin-bottom: 1rem;">Key Technical Goals
+                                </h3>
+                                <ul class="goals-list">
+                                    <li><i class="fa-solid fa-check-circle"></i> <strong>Material Science:</strong>
+                                        Developing a lightweight mix (<80 lb/ft³) that balances buoyancy with
+                                            strength.</li>
+                                    <li><i class="fa-solid fa-check-circle"></i> <strong>Hydrodynamics:</strong>
+                                        Optimizing hull geometry for competitive sprint and slalom racing.</li>
+                                    <li><i class="fa-solid fa-check-circle"></i> <strong>Compliance:</strong> Meeting
+                                        strict ASCE safety regulations, including a mandatory 6-inch freeboard.</li>
+                                </ul>
+                            </div>
+                            <div class="description-image">
+                                <img src="images/project/Caone Render .JPG" alt="Canoe Render" class="rounded-img">
+                                <p
+                                    style="text-align: center; margin-top: 0.5rem; font-style: italic; opacity: 0.8; font-size: 0.9rem;">
+                                    Photo from 2025 ASCE ISWS Competition</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- ROW 3: Constraints -->
+                <div class="project-row" id="constraints">
+                    <div class="dashboard-card">
+                        <div class="card-header">
+                            <i class="fa-solid fa-ruler-combined card-icon"></i>
+                            <h2>Project Constraints</h2>
+                        </div>
+                        <div class="card-content centered-content">
+                            <div class="constraints-detailed-list">
+                                <div class="constraint-card">
+                                    <div class="constraint-icon">
+                                        <i class="fa-solid fa-scale-balanced"></i>
+                                    </div>
+                                    <div class="constraint-details">
+                                        <h3>ASCE ISWS Rules & Regulations</h3>
+                                        <p>The project must strictly adhere to the comprehensive 2026 ASCE Concrete
+                                            Canoe Competition Rules. This includes specifications for hull dimensions,
+                                            concrete mixture proportions, reinforcement materials, and safety protocols.
+                                            Any violation can lead to disqualification.</p>
+                                    </div>
+                                </div>
+                                <div class="constraint-card">
+                                    <div class="constraint-icon">
+                                        <i class="fa-solid fa-water"></i>
+                                    </div>
+                                    <div class="constraint-details">
+                                        <h3>Concrete Density</h3>
+                                        <p>The concrete mixture must have a density lower than that of water (< 62.4
+                                                lb/ft³) to ensure the canoe floats even when fully submerged (swamped).
+                                                This requires the use of lightweight aggregates and careful mix
+                                                design.</p>
+                                    </div>
+                                </div>
+                                <div class="constraint-card">
+                                    <div class="constraint-icon">
+                                        <i class="fa-solid fa-ruler-horizontal"></i>
+                                    </div>
+                                    <div class="constraint-details">
+                                        <h3>Canoe Dimensions</h3>
+                                        <p>The canoe length is restricted to a maximum of 22 feet. The width and depth
+                                            must also fall within specified ranges to ensure fair competition and
+                                            transportability. Optimization of these dimensions is key for speed and
+                                            stability.</p>
+                                    </div>
+                                </div>
+                                <div class="constraint-card">
+                                    <div class="constraint-icon">
+                                        <i class="fa-solid fa-sack-dollar"></i>
+                                    </div>
+                                    <div class="constraint-details">
+                                        <h3>Budget Cap</h3>
+                                        <p>The total value of materials used in the final product cannot exceed $5,000.
+                                            This constraints challenges the team to find cost-effective solutions and
+                                            secure donations without compromising on performance or quality.</p>
+                                    </div>
+                                </div>
+                                <div class="constraint-card">
+                                    <div class="constraint-icon">
+                                        <i class="fa-solid fa-calendar-check"></i>
+                                    </div>
+                                    <div class="constraint-details">
+                                        <h3>Project Timeline</h3>
+                                        <p>The entire project, from design to fabrication, must be completed by April
+                                            2026 for the ASCE Intermountain Southwest Student Symposium. Strict
+                                            adherence to the critical path schedule is essential to meet this deadline.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="constraint-card">
+                                    <div class="constraint-icon">
+                                        <i class="fa-solid fa-shield-halved"></i>
+                                    </div>
+                                    <div class="constraint-details">
+                                        <h3>Safety & Freeboard</h3>
+                                        <p>A mandatory 6-inch freeboard is required to prevent water from entering the
+                                            canoe during races. Additionally, all construction activities must follow
+                                            rigorous safety standards to protect team members.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ROW 4: Project Tasks -->
+                <div class="project-row" id="tasks">
+                    <div class="dashboard-card tasks-centered">
+                        <div class="card-header">
+                            <i class="fa-solid fa-list-check card-icon"></i>
+                            <h2>Project Tasks</h2>
+                        </div>
+                        <div class="card-content">
+
+                            <!-- Task 1: Project Preparation -->
+                            <details class="task-accordion">
+                                <summary>
+                                    <span class="summary-title"><i class="fa-solid fa-clipboard-check"></i> Project
+                                        Preparation</span>
+                                    <i class="fa-solid fa-chevron-down arrow-icon"></i>
+                                </summary>
+                                <div class="accordion-body">
+                                    <p class="task-description">This foundational phase ensures the project adheres
+                                        to
+                                        strict safety and regulatory standards. The team conducts an exhaustive
+                                        review
+                                        of
+                                        the 2026 ASCE Rules to identify critical design constraints while
+                                        simultaneously
+                                        securing funding and establishing lab safety protocols.</p>
+                                    <ul class="task-list">
+                                        <li><i class="fa-solid fa-angle-right"></i> Comprehensive Rule Analysis &
+                                            Strategy
+                                        </li>
+                                        <li><i class="fa-solid fa-angle-right"></i> Sponsorship Acquisition &
+                                            Material
+                                            Sourcing
+                                        </li>
+                                        <li><i class="fa-solid fa-angle-right"></i> Lab Safety Plan Implementation
+                                        </li>
+                                    </ul>
+                                </div>
+                            </details>
+
+                            <!-- Task 2: Concrete Mix Design -->
+                            <details class="task-accordion">
+                                <summary>
+                                    <span class="summary-title"><i class="fa-solid fa-flask"></i> Concrete Mix
+                                        Design</span>
+                                    <i class="fa-solid fa-chevron-down arrow-icon"></i>
+                                </summary>
+                                <div class="accordion-body">
+                                    <p class="task-description">The core technical challenge involves engineering a
+                                        specialized lightweight concrete composite. Through iterative testing, the
+                                        team
+                                        develops a mix that maintains buoyancy (density <80 lb/ft³) without compromising
+                                            the structural integrity required to survive race loads.</p>
+                                            <ul class="task-list">
+                                                <li><i class="fa-solid fa-angle-right"></i> Material Selection
+                                                    (Aggregates &
+                                                    Admixtures)</li>
+                                                <li><i class="fa-solid fa-angle-right"></i> Compressive & Tensile
+                                                    Strength
+                                                    Testing
+                                                </li>
+                                                <li><i class="fa-solid fa-angle-right"></i> Final Mix Optimization
+                                                    via
+                                                    Decision
+                                                    Matrix</li>
+                                            </ul>
+                                </div>
+                            </details>
+
+                            <!-- Task 3: Hull Design & Analysis -->
+                            <details class="task-accordion">
+                                <summary>
+                                    <span class="summary-title"><i class="fa-solid fa-ship"></i> Hull Design &
+                                        Analysis</span>
+                                    <i class="fa-solid fa-chevron-down arrow-icon"></i>
+                                </summary>
+                                <div class="accordion-body">
+                                    <p class="task-description">Using advanced computational modeling, the team
+                                        designs
+                                        a
+                                        hull optimized for hydrodynamic efficiency. We utilize Finite Element
+                                        Analysis
+                                        (FEA)
+                                        to simulate stress distribution, ensuring the vessel remains stable and fast
+                                        during
+                                        sprint and slalom races.</p>
+                                    <ul class="task-list">
+                                        <li><i class="fa-solid fa-angle-right"></i> Hull Geometry Modeling
+                                            (SolidWorks)
+                                        </li>
+                                        <li><i class="fa-solid fa-angle-right"></i> Structural Stress Analysis (FEA)
+                                        </li>
+                                        <li><i class="fa-solid fa-angle-right"></i> Hydrodynamic Drag Simulation
+                                        </li>
+                                    </ul>
+                                </div>
+                            </details>
+
+                            <!-- Task 4: Construction & Fabrication -->
+                            <details class="task-accordion">
+                                <summary>
+                                    <span class="summary-title"><i class="fa-solid fa-tools"></i> Construction &
+                                        Fabrication</span>
+                                    <i class="fa-solid fa-chevron-down arrow-icon"></i>
+                                </summary>
+                                <div class="accordion-body">
+                                    <p class="task-description">This phase translates the digital design into a
+                                        physical
+                                        product. It requires precision mold fabrication followed by 'Pour Day'—a
+                                        coordinated
+                                        team effort to batch, place, and finish the concrete canoe to aesthetic
+                                        perfection.
+                                    </p>
+                                    <ul class="task-list">
+                                        <li><i class="fa-solid fa-angle-right"></i> Male Mold Fabrication</li>
+                                        <li><i class="fa-solid fa-angle-right"></i> Concrete Batching & Placement
+                                            (Pour
+                                            Day)
+                                        </li>
+                                        <li><i class="fa-solid fa-angle-right"></i> Curing, Sanding & Surface
+                                            Finishing
+                                        </li>
+                                        <li><i class="fa-solid fa-angle-right"></i> Display Stand Construction</li>
+                                    </ul>
+                                </div>
+                            </details>
+
+                            <!-- Task 5: Competition -->
+                            <details class="task-accordion">
+                                <summary>
+                                    <span class="summary-title"><i class="fa-solid fa-flag-checkered"></i>
+                                        Competition</span>
+                                    <i class="fa-solid fa-chevron-down arrow-icon"></i>
+                                </summary>
+                                <div class="accordion-body">
+                                    <p class="task-description">The project culminates at the ASCE Intermountain
+                                        Southwest
+                                        Student Symposium (ISWS). The team transports the canoe to the venue to
+                                        compete
+                                        against regional universities in technical presentations and dynamic racing
+                                        events.
+                                    </p>
+                                    <ul class="task-list">
+                                        <li><i class="fa-solid fa-angle-right"></i> Logistics & Transportation
+                                            Planning
+                                        </li>
+                                        <li><i class="fa-solid fa-angle-right"></i> Technical Presentation & Display
+                                            Stand
+                                        </li>
+                                        <li><i class="fa-solid fa-angle-right"></i> Buoyancy (Swamp) Test & Final
+                                            Races
+                                        </li>
+                                    </ul>
+                                </div>
+                            </details>
+
+                            <!-- Task 6: Project Impacts -->
+                            <details class="task-accordion">
+                                <summary>
+                                    <span class="summary-title"><i class="fa-solid fa-globe-americas"></i> Project
+                                        Impacts</span>
+                                    <i class="fa-solid fa-chevron-down arrow-icon"></i>
+                                </summary>
+                                <div class="accordion-body">
+                                    <p class="task-description">Engineering does not happen in a vacuum. We evaluate
+                                        the
+                                        project's broader footprint, analyzing the environmental sustainability of
+                                        our
+                                        materials, the economic efficiency of our budget, and the social impact on
+                                        the
+                                        engineering community.</p>
+                                    <ul class="task-list">
+                                        <li><i class="fa-solid fa-angle-right"></i> Regulatory Compliance Audit</li>
+                                        <li><i class="fa-solid fa-angle-right"></i> Sustainability & Lifecycle
+                                            Assessment
+                                        </li>
+                                        <li><i class="fa-solid fa-angle-right"></i> Socio-Economic Impact Report
+                                        </li>
+                                    </ul>
+                                </div>
+                            </details>
+
+                            <!-- Task 7: Project Deliverables -->
+                            <details class="task-accordion">
+                                <summary>
+                                    <span class="summary-title"><i class="fa-solid fa-file-invoice"></i> Project
+                                        Deliverables</span>
+                                    <i class="fa-solid fa-chevron-down arrow-icon"></i>
+                                </summary>
+                                <div class="accordion-body">
+                                    <p class="task-description">To meet academic and competition standards, the team
+                                        produces a suite of professional technical documents. These reports track
+                                        our
+                                        progress and serve as the official qualification record for the ASCE
+                                        competition.
+                                    </p>
+                                    <ul class="task-list">
+                                        <li><i class="fa-solid fa-angle-right"></i> 30%, 60%, and 90% Progress
+                                            Reports
+                                        </li>
+                                        <li><i class="fa-solid fa-angle-right"></i> ASCE Proposal & Qualifications
+                                            Package
+                                        </li>
+                                        <li><i class="fa-solid fa-angle-right"></i> Final Technical Execution
+                                            Package
+                                        </li>
+                                    </ul>
+                                </div>
+                            </details>
+
+                            <!-- Task 8: Project Management -->
+                            <details class="task-accordion">
+                                <summary>
+                                    <span class="summary-title"><i class="fa-solid fa-users-cog"></i> Project
+                                        Management</span>
+                                    <i class="fa-solid fa-chevron-down arrow-icon"></i>
+                                </summary>
+                                <div class="accordion-body">
+                                    <p class="task-description">Effective management ensures the project remains on
+                                        schedule
+                                        and within budget. This involves continuous resource tracking, critical path
+                                        analysis, and regular coordination with our technical advisors and
+                                        stakeholders.
+                                    </p>
+                                    <ul class="task-list">
+                                        <li><i class="fa-solid fa-angle-right"></i> Schedule Management (Gantt
+                                            Chart)
+                                        </li>
+                                        <li><i class="fa-solid fa-angle-right"></i> Resource & Budget Tracking</li>
+                                        <li><i class="fa-solid fa-angle-right"></i> Client & Advisor Coordination
+                                        </li>
+                                    </ul>
+                                </div>
+                            </details>
+
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ROW 5: Gantt Chart -->
+                <div class="project-row" id="gantt">
+                    <div class="dashboard-card">
+                        <div class="card-header">
+                            <i class="fa-solid fa-chart-gantt card-icon"></i>
+                            <h2>Project Schedule</h2>
+                        </div>
+                        <div class="card-content">
+                            <div class="gantt-placeholder">
+                                <img src="images/project/Gannt Chart Pdf-1.jpg" alt="Project Schedule Gantt Chart">
+                            </div>
+                            <div class="table-responsive" style="margin-top: 2rem;">
+                                <table class="staffing-table">
+                                    <thead>
+                                        <tr>
+                                            <th>Task Name</th>
+                                            <th>Start Date</th>
+                                            <th>Finish Date</th>
+                                            <th>Time to Completion</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>Project Preparation</td>
+                                            <td>09/15/25</td>
+                                            <td>10/20/25</td>
+                                            <td>35 Days</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Concrete Mix Design</td>
+                                            <td>09/22/25</td>
+                                            <td>01/15/26</td>
+                                            <td>115 Days</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Hull Design</td>
+                                            <td>10/01/25</td>
+                                            <td>12/15/25</td>
+                                            <td>75 Days</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Construction</td>
+                                            <td>01/20/26</td>
+                                            <td>03/10/26</td>
+                                            <td>49 Days</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Competition</td>
+                                            <td>04/10/26</td>
+                                            <td>04/13/26</td>
+                                            <td>3 Days</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ROW 6: Staffing (New Table from Image Data) -->
+                <div class="project-row" id="staffing">
+                    <div class="dashboard-card">
+                        <div class="card-header">
+                            <i class="fa-solid fa-users-gear card-icon"></i>
+                            <h2>Estimated Hours Breakdown</h2>
+                        </div>
+                        <div class="card-content">
+                            <div class="table-responsive" style="margin-bottom: 2rem;">
+                                <h3 style="margin-bottom: 1rem; color: #fff;">Staffing Plan</h3>
+                                <table class="staffing-table">
+                                    <thead>
+                                        <tr>
+                                            <th>Position</th>
+                                            <th>Abbr.</th>
+                                            <th>Key Qualifications</th>
+                                            <th>Primary Responsibilities</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td><strong>Senior Engineer</strong></td>
+                                            <td>SENG</td>
+                                            <td>
+                                                <ul class="styled-list" style="margin: 0; padding-left: 1rem;">
+                                                    <li>15 years Industry Experience</li>
+                                                    <li>Structural Engineer</li>
+                                                    <li>Licensed Professional Engineer (PE)</li>
+                                                </ul>
+                                            </td>
+                                            <td>
+                                                <ul class="styled-list" style="margin: 0; padding-left: 1rem;">
+                                                    <li>Technical oversight</li>
+                                                    <li>Final Authority on Analysis & Design</li>
+                                                </ul>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td><strong>Project Manager</strong></td>
+                                            <td>PM</td>
+                                            <td>
+                                                <ul class="styled-list" style="margin: 0; padding-left: 1rem;">
+                                                    <li>5 years Experience</li>
+                                                    <li>Research and Development (R&D)</li>
+                                                    <li>Construction Schedules</li>
+                                                    <li>Licensed Professional Engineer (PE)</li>
+                                                </ul>
+                                            </td>
+                                            <td>
+                                                <ul class="styled-list" style="margin: 0; padding-left: 1rem;">
+                                                    <li>Project planning</li>
+                                                    <li>Schedule Management</li>
+                                                    <li>Risk Management</li>
+                                                    <li>Client Point of Contact (POC)</li>
+                                                </ul>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td><strong>Engineer in Training</strong></td>
+                                            <td>EIT</td>
+                                            <td>
+                                                <ul class="styled-list" style="margin: 0; padding-left: 1rem;">
+                                                    <li>Entry-level Experience</li>
+                                                    <li>Degree in Civil Engineering or Adjacent Major</li>
+                                                    <li>Proficient in modeling and analysis software</li>
+                                                </ul>
+                                            </td>
+                                            <td>
+                                                <ul class="styled-list" style="margin: 0; padding-left: 1rem;">
+                                                    <li>Model and Design</li>
+                                                    <li>General Tasks</li>
+                                                    <li>Preparation of Technical Drawings</li>
+                                                </ul>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td><strong>Lab Technician</strong></td>
+                                            <td>TECH</td>
+                                            <td>
+                                                <ul class="styled-list" style="margin: 0; padding-left: 1rem;">
+                                                    <li>Experience in Material Testing with ASTM procedure</li>
+                                                    <li>Familiarity with Material Acquisition</li>
+                                                </ul>
+                                            </td>
+                                            <td>
+                                                <ul class="styled-list" style="margin: 0; padding-left: 1rem;">
+                                                    <li>Manage Material Inventory</li>
+                                                    <li>Material Testing</li>
+                                                    <li>Prepare batches</li>
+                                                    <li>Construction of Mold and Stand</li>
+                                                </ul>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td><strong>Quality Manager</strong></td>
+                                            <td>QM</td>
+                                            <td>
+                                                <ul class="styled-list" style="margin: 0; padding-left: 1rem;">
+                                                    <li>Experience in Quality Assurance/Quality Control (QA/QC)</li>
+                                                    <li>Technical Writing Skills</li>
+                                                    <li>Degree in Civil Engineering or Adjacent Major</li>
+                                                </ul>
+                                            </td>
+                                            <td>
+                                                <ul class="styled-list" style="margin: 0; padding-left: 1rem;">
+                                                    <li>Ensure Guideline Compliance</li>
+                                                    <li>Prepare Technical Documents</li>
+                                                    <li>Implement QC/QA</li>
+                                                    <li>Assist in Model and Design</li>
+                                                </ul>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+
+                            <h3 style="margin-bottom: 1rem; color: #fff;">Estimated Hours Breakdown</h3>
+                            <table class="staffing-table">
+                                <thead>
+                                    <tr>
+                                        <th>Task Name</th>
+                                        <th>SENG (Hrs)</th>
+                                        <th>PM (Hrs)</th>
+                                        <th>EIT (Hrs)</th>
+                                        <th>TECH (Hrs)</th>
+                                        <th>QM (Hrs)</th>
+                                        <th>Subtotal (person-hours)</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Task 1: Project Preparation</td>
+                                        <td>5</td>
+                                        <td>15</td>
+                                        <td>20</td>
+                                        <td>10</td>
+                                        <td>5</td>
+                                        <td>55</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Task 2: Concrete Mix Design</td>
+                                        <td>15</td>
+                                        <td>25</td>
+                                        <td>50</td>
+                                        <td>60</td>
+                                        <td>35</td>
+                                        <td>185</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Task 3: Hull Design/Structural Analysis</td>
+                                        <td>15</td>
+                                        <td>10</td>
+                                        <td>45</td>
+                                        <td>15</td>
+                                        <td>15</td>
+                                        <td>100</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Task 4: Construction/Fabrication</td>
+                                        <td>10</td>
+                                        <td>30</td>
+                                        <td>50</td>
+                                        <td>55</td>
+                                        <td>40</td>
+                                        <td>185</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Task 5: Competition</td>
+                                        <td>2</td>
+                                        <td>10</td>
+                                        <td>15</td>
+                                        <td>5</td>
+                                        <td>5</td>
+                                        <td>37</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Task 6: Project Impacts</td>
+                                        <td>3</td>
+                                        <td>10</td>
+                                        <td>10</td>
+                                        <td>0</td>
+                                        <td>10</td>
+                                        <td>33</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Task 7: Project Deliverables</td>
+                                        <td>15</td>
+                                        <td>35</td>
+                                        <td>40</td>
+                                        <td>15</td>
+                                        <td>5</td>
+                                        <td>110</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Task 8: Project Management</td>
+                                        <td>5</td>
+                                        <td>20</td>
+                                        <td>10</td>
+                                        <td>5</td>
+                                        <td>5</td>
+                                        <td>45</td>
+                                    </tr>
+                                    <tr class="total-row">
+                                        <td><strong>Total Hours</strong></td>
+                                        <td><strong>70</strong></td>
+                                        <td><strong>155</strong></td>
+                                        <td><strong>240</strong></td>
+                                        <td><strong>165</strong></td>
+                                        <td><strong>120</strong></td>
+                                        <td><strong>750</strong></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ROW 7: Cost of Services -->
+            <div class="project-row" id="cost">
+                <div class="dashboard-card">
+                    <div class="card-header">
+                        <i class="fa-solid fa-file-invoice-dollar card-icon"></i>
+                        <h2>Cost of Services</h2>
+                    </div>
+                    <div class="card-content">
+                        <div class="table-responsive">
+                            <table class="staffing-table">
+                                <thead>
+                                    <tr>
+                                        <th>Category</th>
+                                        <th>Rate, $/Unit</th>
+                                        <th>Quantity</th>
+                                        <th>Unit</th>
+                                        <th>Subtotal</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr class="section-header">
+                                        <td colspan="5"><strong>1.0 Personnel</strong></td>
+                                    </tr>
+                                    <tr>
+                                        <td>SENG</td>
+                                        <td>$217</td>
+                                        <td>70</td>
+                                        <td>HR</td>
+                                        <td>$15,190</td>
+                                    </tr>
+                                    <tr>
+                                        <td>PM</td>
+                                        <td>$170</td>
+                                        <td>155</td>
+                                        <td>HR</td>
+                                        <td>$26,350</td>
+                                    </tr>
+                                    <tr>
+                                        <td>EIT</td>
+                                        <td>$133</td>
+                                        <td>240</td>
+                                        <td>HR</td>
+                                        <td>$31,920</td>
+                                    </tr>
+                                    <tr>
+                                        <td>TECH</td>
+                                        <td>$133</td>
+                                        <td>165</td>
+                                        <td>HR</td>
+                                        <td>$21,945</td>
+                                    </tr>
+                                    <tr>
+                                        <td>QM</td>
+                                        <td>$130</td>
+                                        <td>120</td>
+                                        <td>HR</td>
+                                        <td>$15,600</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Total Personnel</strong></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td><strong>$111,005</strong></td>
+                                    </tr>
+
+                                    <tr class="section-header">
+                                        <td colspan="5"><strong>2.0 Travel</strong></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Mileage</td>
+                                        <td>$0.7/mile</td>
+                                        <td>1000</td>
+                                        <td>MILE</td>
+                                        <td>$700</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Van Rental</td>
+                                        <td>$62/day</td>
+                                        <td>4</td>
+                                        <td>DAY</td>
+                                        <td>$248</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Lodging</td>
+                                        <td>$120/night</td>
+                                        <td>6</td>
+                                        <td>Room-Night</td>
+                                        <td>$720</td>
+                                    </tr>
+
+                                    <tr class="section-header">
+                                        <td colspan="5"><strong>3.0 Supplies</strong></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Equipment</td>
+                                        <td>$2,000</td>
+                                        <td>1</td>
+                                        <td>LS</td>
+                                        <td>$2,000</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Lab Rental</td>
+                                        <td>$100/day</td>
+                                        <td>56</td>
+                                        <td>DAY</td>
+                                        <td>$5,600</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Materials</td>
+                                        <td>$5,000</td>
+                                        <td>1</td>
+                                        <td>LS</td>
+                                        <td>$5,000</td>
+                                    </tr>
+
+                                    <tr class="total-row">
+                                        <td colspan="4"><strong>4.0 Total</strong></td>
+                                        <td><strong>$125,273</strong></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        </div>
+    </section>
+
+    <!-- Back to Top Button -->
+    <button id="backToTop" title="Back to Top">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 19V5M5 12l7-7 7 7" />
+        </svg>
+    </button>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-links">
+                <a href="index.html">Home</a>
+                <a href="team.html">Team</a>
+                <a href="video.html">Video</a>
+                <a href="project-info.html">Project Info</a>
+                <a href="design.html">Design</a>
+                <a href="documents.html">Documents</a>
+                <a href="gallery.html">Gallery</a>
+            </div>
+            <p>&copy; 2026 NAU Concrete Canoe Team. All Rights Reserved.</p>
+            <p style="font-size: 0.8rem; margin-top: 0.5rem; opacity: 0.6;">Last Updated: 12/02/25</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>

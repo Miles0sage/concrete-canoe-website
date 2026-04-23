@@ -7,13 +7,41 @@
     <title>Documents - NAU Concrete Canoe 2026</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800&family=Open+Sans:wght@300;400;600;700&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap">
+    <link rel="stylesheet" href="css/galaxy.css">
+    <link rel="stylesheet" href="css/galaxy-compat.css">
 </head>
 
 <body>
+    <!-- Cosmic background -->
+    <canvas id="cosmos"></canvas>
+    <div id="cosmos-gradient"></div>
+
+    <!-- Galaxy Navigation -->
+    <nav class="galaxy-nav mobile-menu">
+        <div class="nav-inner">
+            <a href="index.html" class="nav-brand">
+                <img src="images/project/pluto-jacks-logo.jpg" alt="PLUTO Jacks" style="border-radius:50%;background:#fff;padding:3px">
+                <span>PLUTO Jacks</span>
+                <span class="orbit-dot"></span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="project-info.html">Project</a></li>
+                <li><a href="design.html">Design</a></li>
+                <li><a href="team.html">Team</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="video.html">Video</a></li>
+                <li><a href="documents.html">Documents</a></li>
+            </ul>
+            <button class="nav-toggle-btn" aria-label="Menu">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M3 6h18M3 12h18M3 18h18" />
+                </svg>
+            </button>
+        </div>
+    </nav>
 
     <!-- Header -->
     <header>
@@ -103,16 +131,16 @@
             <div class="grid grid-3 animate-fade-up mb-lg">
                 <div class="doc-card">
                     <div class="doc-icon">
-                        <i class="fa-solid fa-ruler-combined"></i>
+                        <i class="fa-solid fa-flask"></i>
                     </div>
                     <div class="doc-info">
-                        <h3>Construction Drawings</h3>
-                        <span class="doc-date">Spring 2026</span>
-                        <span class="badge badge-pending">Pending</span>
-                        <p style="font-size: 0.8rem; margin-top: 0.5rem; opacity: 0.8;">Design and analysis have not
-                            been done.</p>
+                        <h3>90% Design Report</h3>
+                        <span class="doc-date">Apr 2026</span>
+                        <span class="badge badge-completed">Latest</span>
+                        <p style="font-size: 0.82rem; margin-top: 0.5rem; opacity: 0.85;">Mix design, structural
+                            analysis, FEA, construction &mdash; full technical doc.</p>
                     </div>
-                    <button class="btn btn-sm btn-disabled" disabled>Coming Soon</button>
+                    <a href="documents/90-percent-design-report.pdf" class="btn btn-sm btn-outline" download>Download PDF</a>
                 </div>
 
                 <div class="doc-card">
@@ -238,7 +266,44 @@
         </div>
     </footer>
 
-    <script src="js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.min.js"></script>
+    <script src="js/cosmos.js"></script>
+    <script src="js/galaxy-ui.js"></script>
+    <!-- Galaxy Footer -->
+    <footer class="galaxy-footer">
+        <div class="footer-grid">
+            <div class="col brand-block">
+                <div class="nav-brand" style="margin-bottom:1rem">
+                    <img src="images/project/NAU-LOGO.png" alt="NAU" style="height:32px">
+                    <span>PLUTO Jacks</span>
+                </div>
+                <p>Northern Arizona University · 2025-2026 Concrete Canoe Capstone. Competing at the ASCE Intermountain Southwest Student Symposium.</p>
+            </div>
+            <div class="col">
+                <h5>Project</h5>
+                <a href="project-info.html">Overview</a>
+                <a href="design.html">Design</a>
+                <a href="gallery.html">Gallery</a>
+                <a href="documents.html">Documents</a>
+            </div>
+            <div class="col">
+                <h5>Team</h5>
+                <a href="team.html">Meet the Crew</a>
+                <a href="video.html">Engineering Video</a>
+                <a href="index.html#sponsor">Sponsor Us</a>
+            </div>
+            <div class="col">
+                <h5>External</h5>
+                <a href="https://www.nau.edu/" target="_blank" rel="noopener">NAU ↗</a>
+                <a href="https://studentsymposium.asce.org/intermountain-southwest/" target="_blank" rel="noopener">ASCE ISWS ↗</a>
+                <a href="https://www.sce.nau.edu/capstone/d4p/" target="_blank" rel="noopener">CECMEE Capstone ↗</a>
+            </div>
+        </div>
+        <div class="bottom">
+            <span>© 2026 NAU Concrete Canoe · PLUTO Jacks</span>
+            <span>Last updated · 04.23.2026</span>
+        </div>
+    </footer>
 </body>
 
 </html>

@@ -7,13 +7,41 @@
     <title>Gallery - NAU Concrete Canoe 2026</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800&family=Open+Sans:wght@300;400;600;700&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap">
+    <link rel="stylesheet" href="css/galaxy.css">
+    <link rel="stylesheet" href="css/galaxy-compat.css">
 </head>
 
 <body>
+    <!-- Cosmic background -->
+    <canvas id="cosmos"></canvas>
+    <div id="cosmos-gradient"></div>
+
+    <!-- Galaxy Navigation -->
+    <nav class="galaxy-nav mobile-menu">
+        <div class="nav-inner">
+            <a href="index.html" class="nav-brand">
+                <img src="images/project/pluto-jacks-logo.jpg" alt="PLUTO Jacks" style="border-radius:50%;background:#fff;padding:3px">
+                <span>PLUTO Jacks</span>
+                <span class="orbit-dot"></span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="project-info.html">Project</a></li>
+                <li><a href="design.html">Design</a></li>
+                <li><a href="team.html">Team</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="video.html">Video</a></li>
+                <li><a href="documents.html">Documents</a></li>
+            </ul>
+            <button class="nav-toggle-btn" aria-label="Menu">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M3 6h18M3 12h18M3 18h18" />
+                </svg>
+            </button>
+        </div>
+    </nav>
 
     <!-- Header -->
     <header>
@@ -48,15 +76,65 @@
     <!-- Gallery Section -->
     <section class="section">
         <div class="container">
-            <div class="content-block text-center animate-fade-up">
-                <div
-                    style="max-width: 800px; margin: 0 auto; padding: 4rem; background: linear-gradient(135deg, rgba(155, 127, 217, 0.15), rgba(51, 230, 255, 0.15)); border-radius: 20px; border: 2px solid rgba(51, 230, 255, 0.3);">
-                    <h2
-                        style="color: #33E6FF; font-size: 3rem; margin-bottom: 1rem; text-shadow: 0 0 20px rgba(51, 230, 255, 0.6);">
-                        🚀 Coming Soon</h2>
-                    <p style="font-size: 1.2rem; color: var(--color-text);">Our project gallery will be available here
-                        soon. Check back later for photos and updates!</p>
-                </div>
+            <!-- Hero shot -->
+            <figure class="glass animate-fade-up" style="padding:0;overflow:hidden;margin:0 0 1.5rem">
+                <img src="images/gallery/canoe-water-paddle.jpg" alt="NAU PLUTO canoe on water with paddlers" style="width:100%;aspect-ratio:21/9;object-fit:cover;display:block">
+                <figcaption style="padding:1rem 1.5rem;font-family:var(--font-mono);font-size:.75rem;letter-spacing:.15em;text-transform:uppercase;color:var(--pluto-ice)">NAU PLUTO · On the Water · ISWS 2026</figcaption>
+            </figure>
+
+            <div class="grid grid-3" style="gap:1.2rem">
+                <figure class="glass" style="padding:0;overflow:hidden;margin:0">
+                    <img src="images/gallery/canoe-on-stand.jpg" alt="Finished canoe on space-themed stand" style="width:100%;aspect-ratio:4/5;object-fit:cover;display:block">
+                    <figcaption style="padding:1rem 1.2rem;font-family:var(--font-mono);font-size:.72rem;letter-spacing:.1em;text-transform:uppercase;color:var(--pluto-faint)">Finished Canoe · Stand</figcaption>
+                </figure>
+                <figure class="glass" style="padding:0;overflow:hidden;margin:0">
+                    <img src="images/gallery/canoe-launching.jpg" alt="Team launching canoe" style="width:100%;aspect-ratio:4/5;object-fit:cover;display:block">
+                    <figcaption style="padding:1rem 1.2rem;font-family:var(--font-mono);font-size:.72rem;letter-spacing:.1em;text-transform:uppercase;color:var(--pluto-faint)">Launch Day</figcaption>
+                </figure>
+                <figure class="glass" style="padding:0;overflow:hidden;margin:0">
+                    <img src="images/gallery/canoe-stand-outdoor.jpg" alt="Canoe at lakeside" style="width:100%;aspect-ratio:4/5;object-fit:cover;display:block">
+                    <figcaption style="padding:1rem 1.2rem;font-family:var(--font-mono);font-size:.72rem;letter-spacing:.1em;text-transform:uppercase;color:var(--pluto-faint)">Lake-side Display</figcaption>
+                </figure>
+                <figure class="glass" style="padding:0;overflow:hidden;margin:0">
+                    <img src="images/gallery/canoe-unloading.jpg" alt="Team unloading canoe from trailer" style="width:100%;aspect-ratio:4/3;object-fit:cover;display:block">
+                    <figcaption style="padding:1rem 1.2rem;font-family:var(--font-mono);font-size:.72rem;letter-spacing:.1em;text-transform:uppercase;color:var(--pluto-faint)">Unloading at Competition</figcaption>
+                </figure>
+                <figure class="glass" style="padding:0;overflow:hidden;margin:0">
+                    <img src="images/gallery/mold-cutting.jpg" alt="Cross section cutting" style="width:100%;aspect-ratio:4/3;object-fit:cover;display:block">
+                    <figcaption style="padding:1rem 1.2rem;font-family:var(--font-mono);font-size:.72rem;letter-spacing:.1em;text-transform:uppercase;color:var(--pluto-faint)">Fig 5-1 · Cross Section Cutting</figcaption>
+                </figure>
+                <figure class="glass" style="padding:0;overflow:hidden;margin:0">
+                    <img src="images/gallery/cross-section-alignment.jpg" alt="Cross section alignment" style="width:100%;aspect-ratio:4/3;object-fit:cover;display:block">
+                    <figcaption style="padding:1rem 1.2rem;font-family:var(--font-mono);font-size:.72rem;letter-spacing:.1em;text-transform:uppercase;color:var(--pluto-faint)">Fig 5-2 · Cross Section Alignment</figcaption>
+                </figure>
+                <figure class="glass" style="padding:0;overflow:hidden;margin:0">
+                    <img src="images/gallery/canoe-mold.jpg" alt="Canoe mold" style="width:100%;aspect-ratio:4/3;object-fit:cover;display:block">
+                    <figcaption style="padding:1rem 1.2rem;font-family:var(--font-mono);font-size:.72rem;letter-spacing:.1em;text-transform:uppercase;color:var(--pluto-faint)">Fig 5-3 · Foam Canoe Mold</figcaption>
+                </figure>
+                <figure class="glass" style="padding:0;overflow:hidden;margin:0">
+                    <img src="images/gallery/final-canoe-mold.jpg" alt="Final canoe mold" style="width:100%;aspect-ratio:4/3;object-fit:cover;display:block">
+                    <figcaption style="padding:1rem 1.2rem;font-family:var(--font-mono);font-size:.72rem;letter-spacing:.1em;text-transform:uppercase;color:var(--pluto-faint)">Fig 5-4 · Final Mold, Flex Sealed</figcaption>
+                </figure>
+                <figure class="glass" style="padding:0;overflow:hidden;margin:0">
+                    <img src="images/gallery/stand-carry.jpg" alt="Canoe stand" style="width:100%;aspect-ratio:4/3;object-fit:cover;display:block">
+                    <figcaption style="padding:1rem 1.2rem;font-family:var(--font-mono);font-size:.72rem;letter-spacing:.1em;text-transform:uppercase;color:var(--pluto-faint)">Fig 5-5 · Space-Themed Stand</figcaption>
+                </figure>
+                <figure class="glass" style="padding:0;overflow:hidden;margin:0">
+                    <img src="images/gallery/concrete-batching.jpg" alt="Concrete batching" style="width:100%;aspect-ratio:4/3;object-fit:cover;display:block">
+                    <figcaption style="padding:1rem 1.2rem;font-family:var(--font-mono);font-size:.72rem;letter-spacing:.1em;text-transform:uppercase;color:var(--pluto-faint)">Fig 5-6 · Concrete Batching</figcaption>
+                </figure>
+                <figure class="glass" style="padding:0;overflow:hidden;margin:0">
+                    <img src="images/project/hull-3d-model.jpg" alt="SolidWorks hull CAD model" style="width:100%;aspect-ratio:4/3;object-fit:contain;display:block;padding:.8rem;background:linear-gradient(135deg,#0a0520,#1a0f3e)">
+                    <figcaption style="padding:1rem 1.2rem;font-family:var(--font-mono);font-size:.72rem;letter-spacing:.1em;text-transform:uppercase;color:var(--pluto-faint)">Fig 4-5 · 3D CAD Model</figcaption>
+                </figure>
+                <figure class="glass" style="padding:0;overflow:hidden;margin:0">
+                    <img src="images/project/hull-fea.jpg" alt="FEA Von Mises" style="width:100%;aspect-ratio:4/3;object-fit:cover;display:block">
+                    <figcaption style="padding:1rem 1.2rem;font-family:var(--font-mono);font-size:.72rem;letter-spacing:.1em;text-transform:uppercase;color:var(--pluto-faint)">Fig 4-6 · FEA Von Mises</figcaption>
+                </figure>
+                <figure class="glass" style="padding:0;overflow:hidden;margin:0">
+                    <img src="images/gallery/compression-test.jpg" alt="Compression strength test" style="width:100%;aspect-ratio:4/3;object-fit:cover;display:block">
+                    <figcaption style="padding:1rem 1.2rem;font-family:var(--font-mono);font-size:.72rem;letter-spacing:.1em;text-transform:uppercase;color:var(--pluto-faint)">Compressive Strength Test</figcaption>
+                </figure>
             </div>
         </div>
     </section>
@@ -86,7 +164,44 @@
         </div>
     </footer>
 
-    <script src="js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.min.js"></script>
+    <script src="js/cosmos.js"></script>
+    <script src="js/galaxy-ui.js"></script>
+    <!-- Galaxy Footer -->
+    <footer class="galaxy-footer">
+        <div class="footer-grid">
+            <div class="col brand-block">
+                <div class="nav-brand" style="margin-bottom:1rem">
+                    <img src="images/project/NAU-LOGO.png" alt="NAU" style="height:32px">
+                    <span>PLUTO Jacks</span>
+                </div>
+                <p>Northern Arizona University · 2025-2026 Concrete Canoe Capstone. Competing at the ASCE Intermountain Southwest Student Symposium.</p>
+            </div>
+            <div class="col">
+                <h5>Project</h5>
+                <a href="project-info.html">Overview</a>
+                <a href="design.html">Design</a>
+                <a href="gallery.html">Gallery</a>
+                <a href="documents.html">Documents</a>
+            </div>
+            <div class="col">
+                <h5>Team</h5>
+                <a href="team.html">Meet the Crew</a>
+                <a href="video.html">Engineering Video</a>
+                <a href="index.html#sponsor">Sponsor Us</a>
+            </div>
+            <div class="col">
+                <h5>External</h5>
+                <a href="https://www.nau.edu/" target="_blank" rel="noopener">NAU ↗</a>
+                <a href="https://studentsymposium.asce.org/intermountain-southwest/" target="_blank" rel="noopener">ASCE ISWS ↗</a>
+                <a href="https://www.sce.nau.edu/capstone/d4p/" target="_blank" rel="noopener">CECMEE Capstone ↗</a>
+            </div>
+        </div>
+        <div class="bottom">
+            <span>© 2026 NAU Concrete Canoe · PLUTO Jacks</span>
+            <span>Last updated · 04.23.2026</span>
+        </div>
+    </footer>
 </body>
 
 </html>

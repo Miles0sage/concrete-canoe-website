@@ -4,88 +4,290 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NAU Concrete Canoe 2026 - PLUTO Jacks</title>
-    <meta name="description" content="Northern Arizona University 2025-2026 Concrete Canoe Team - PLUTO Jacks.">
-    <link rel="stylesheet" href="css/styles.css">
-    <!-- Google Fonts -->
+    <title>PLUTO Jacks — NAU 2026 Concrete Canoe</title>
+    <meta name="description"
+        content="The PLUTO Jacks — Northern Arizona University's 2025-2026 Concrete Canoe Team. Designing, building, and racing a lightweight concrete canoe for the 2026 ASCE Intermountain Southwest Student Symposium.">
+    <meta name="theme-color" content="#030014">
+    <link rel="icon" href="images/project/NAU-LOGO.png">
+    <link rel="stylesheet" href="css/galaxy.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Montserrat:wght@700;800&display=swap"
-        rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap">
 </head>
 
 <body>
+    <!-- Cosmic background -->
+    <canvas id="cosmos"></canvas>
+    <div id="cosmos-gradient"></div>
 
-    <!-- Header -->
-    <header>
-        <div class="header-container container">
-            <a href="index.html" class="logo"><img src="images/project/NAU-LOGO.png" alt="NAU Logo" class="logo-img">
-                PLUTO
-                Jacks</a>
-            <div class="nav-dropdown">
-                <button class="nav-toggle" aria-label="Navigation Menu">Home</button>
-                <div class="dropdown-menu">
-                    <a href="index.html">Home</a>
-                    <a href="team.html">Meet The Team</a>
-                    <a href="video.html">PLUTO Jacks Engineering Video</a>
-                    <a href="project-info.html">Project Information</a>
-                    <a href="design.html">Design</a>
-                    <a href="documents.html">Documents</a>
-                    <a href="gallery.html">Gallery</a>
+    <!-- Navigation -->
+    <nav class="galaxy-nav mobile-menu">
+        <div class="nav-inner">
+            <a href="index.html" class="nav-brand">
+                <img src="images/project/pluto-jacks-logo.jpg" alt="PLUTO Jacks" style="border-radius:50%;background:#fff;padding:3px">
+                <span>PLUTO Jacks</span>
+                <span class="orbit-dot"></span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="project-info.html">Project</a></li>
+                <li><a href="design.html">Design</a></li>
+                <li><a href="team.html">Team</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="video.html">Video</a></li>
+                <li><a href="documents.html">Documents</a></li>
+            </ul>
+            <button class="nav-toggle-btn" aria-label="Menu">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M3 6h18M3 12h18M3 18h18" />
+                </svg>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <section class="hero-galaxy">
+        <div class="hero-content">
+            <div class="hero-badge reveal">
+                <span class="dot"></span>
+                <span>Mission 2026 · ASCE ISWS · Concrete Canoe</span>
+            </div>
+            <h1 class="reveal">PLUTO&nbsp;Jacks</h1>
+            <p class="hero-sub reveal">
+                Northern Arizona University's 2026 Concrete Canoe Team. Designing a lightweight, racing-ready hull from
+                supplementary cementitious materials — then paddling it to victory at the Intermountain Southwest
+                Student Symposium.
+            </p>
+            <div class="hero-meta reveal">
+                <div class="item"><strong>5</strong><span>Engineers</span></div>
+                <span class="sep">/</span>
+                <div class="item"><strong>NAU CECMEE</strong><span>Capstone</span></div>
+                <span class="sep">/</span>
+                <div class="item"><strong>Flagstaff, AZ</strong></div>
+                <span class="sep">/</span>
+                <div class="item"><strong>ISWS 2026</strong><span>Competition</span></div>
+            </div>
+            <div class="hero-cta-row reveal">
+                <a href="project-info.html" class="btn-primary">
+                    Explore the Project
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M5 12h14M13 5l7 7-7 7" />
+                    </svg>
+                </a>
+                <a href="design.html" class="btn-ghost">
+                    View Hull Design
+                </a>
+            </div>
+        </div>
+        <div class="scroll-indicator">Scroll</div>
+    </section>
+
+    <!-- Mission / About -->
+    <section class="section" id="mission">
+        <div class="container">
+            <div class="section-head reveal">
+                <div class="eyebrow">01 · Mission Brief</div>
+                <h2>Concrete. <span class="text-gradient">In&nbsp;Orbit.</span></h2>
+                <p>
+                    The ASCE Request for Proposal challenges civil engineers to prove concrete's versatility by racing a
+                    canoe built from it. We answer that call with the PLUTO Jacks — a team of five NAU seniors engineering
+                    a lightweight hull that floats, paddles, and competes at the 2026 Intermountain Southwest Student
+                    Symposium.
+                </p>
+            </div>
+
+            <div class="grid grid-3">
+                <div class="feature-card reveal">
+                    <div class="icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M3 18h18M5 18V8l7-4 7 4v10M9 18v-6h6v6" />
+                        </svg>
+                    </div>
+                    <h3>Mix Design</h3>
+                    <p>Supplementary cementitious blends — fly ash, silica fume, lightweight aggregates — engineered for
+                        a low density, high-strength hull.</p>
+                    <span class="tag">ACI 318 · ASCE RFP</span>
+                </div>
+                <div class="feature-card reveal">
+                    <div class="icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M3 12c3-6 15-6 18 0M3 12c3 6 15 6 18 0" />
+                        </svg>
+                    </div>
+                    <h3>Hull Geometry</h3>
+                    <p>Parametric hull profile optimized for stability and hydrodynamic efficiency across men's, women's,
+                        and coed sprint events.</p>
+                    <span class="tag">18' × 30" × 18" · FS 2.06</span>
+                </div>
+                <div class="feature-card reveal">
+                    <div class="icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 2v20M2 12h20M5 5l14 14M19 5L5 19" />
+                        </svg>
+                    </div>
+                    <h3>Structural Analysis</h3>
+                    <p>Finite element analysis of the composite shell under paddling loads, transport conditions, and the
+                        ASCE swamp test.</p>
+                    <span class="tag">FEA · Composite Beam</span>
+                </div>
+            </div>
+
+            <div class="stats-row">
+                <div class="stat reveal">
+                    <div class="num" data-count="1900" data-suffix=" psi">0</div>
+                    <div class="label">Compressive Strength</div>
+                    <div class="note">ACI 318 · design mix @ 28 days</div>
+                </div>
+                <div class="stat reveal">
+                    <div class="num" data-count="2.06" data-decimals="2">0</div>
+                    <div class="label">Factor of Safety</div>
+                    <div class="note">Capacity vs. demand · shear</div>
+                </div>
+                <div class="stat reveal">
+                    <div class="num" data-count="68" data-suffix=" pcf">0</div>
+                    <div class="label">Mix Density</div>
+                    <div class="note">Lightweight · floats</div>
+                </div>
+                <div class="stat reveal">
+                    <div class="num" data-count="224" data-suffix=" lb-ft">0</div>
+                    <div class="label">Max Bending Moment</div>
+                    <div class="note">4-person loading per C4</div>
                 </div>
             </div>
         </div>
-    </header>
-
-    <!-- Hero Section -->
-    <section id="home" class="hero">
-        <div class="container hero-content animate-fade-up">
-            <h1>NAU 2026 PLUTO Jacks</h1>
-            <p>2025-2026 Concrete Canoe Team<br>Northern Arizona University</p>
-            <a href="#about" class="btn">Discover More</a>
-        </div>
     </section>
 
-    <!-- About Section -->
-    <section id="about" class="section">
+    <!-- Hull 3D showcase -->
+    <section class="section" id="hull">
         <div class="container">
-            <div class="content-block text-center animate-fade-up">
-                <h2>About The Project</h2>
-                <p>The purpose of this project is to design, construct, and race a canoe made of concrete. NAU and the
-                    Civil, Environmental, and Construction Management Engineering (CECMEE) ASCE Chapter has
-                    provided students the opportunity to compete at the 2025-2026 ASCE Intermountain Southwest Student
-                    Symposium (ISWS) and expect competitors to fully design, construct, and race a functional concrete
-                    canoe making sure it follows the ISWS rules and guidelines.</p>
-                <p>As per the ASCE Request for Proposal (RFP), this project aims to highlight the versatility and
-                    durability of concrete as a construction material to the public and the industry. This will be
-                    accomplished by using supplementary cementitious materials and admixtures in a concrete mix that
-                    will result in a lightweight concrete with the capability to withstand forces associated with
-                    racing. This exemplification of concrete's diverse application at the competition will promote
-                    innovation towards students, educators, and industry professionals.</p>
-                <p><a href="https://studentsymposium.asce.org/intermountain-southwest/" target="_blank"
-                        style="color: var(--color-primary); font-weight: 600;">Further ISWS Information &rarr;</a></p>
+            <div class="section-head reveal">
+                <div class="eyebrow">02 · Live Hull Preview</div>
+                <h2>Hull in motion — <span class="text-gold">drag to orbit.</span></h2>
+                <p>A parametric rendering of the 2026 PLUTO Jacks hull. Engineered lines. Pluto-inspired finish. Click
+                    and drag to explore.</p>
+            </div>
+            <div class="hull-stage glass reveal">
+                <div class="label">NAU PLUTO · On Water</div>
+                <img src="images/hero/canoe-on-water.png" alt="NAU PLUTO Jacks canoe on water with paddlers" class="hull-render">
+                <div class="hint">18' × 30" × 18" · 68 pcf · Built &amp; racing</div>
+            </div>
+
+            <!-- CAD + FEA mini row -->
+            <div class="grid grid-3 reveal" style="margin-top:2rem;gap:1rem">
+                <figure class="glass" style="padding:0;overflow:hidden;margin:0">
+                    <img src="images/project/hull-3d-model.jpg" alt="SolidWorks 3D hull model" style="width:100%;aspect-ratio:4/3;object-fit:contain;display:block;padding:.8rem;background:linear-gradient(135deg,#0a0520,#1a0f3e)">
+                    <figcaption style="padding:.8rem 1rem;font-family:var(--font-mono);font-size:.68rem;letter-spacing:.12em;text-transform:uppercase;color:var(--pluto-faint)">Fig 4-5 · 3D CAD</figcaption>
+                </figure>
+                <figure class="glass" style="padding:0;overflow:hidden;margin:0">
+                    <img src="images/project/hull-fea.jpg" alt="FEA Von Mises study" style="width:100%;aspect-ratio:4/3;object-fit:cover;display:block">
+                    <figcaption style="padding:.8rem 1rem;font-family:var(--font-mono);font-size:.68rem;letter-spacing:.12em;text-transform:uppercase;color:var(--pluto-faint)">Fig 4-6 · FEA</figcaption>
+                </figure>
+                <figure class="glass" style="padding:0;overflow:hidden;margin:0">
+                    <img src="images/gallery/canoe-on-stand.jpg" alt="Finished canoe on custom stand" style="width:100%;aspect-ratio:4/3;object-fit:cover;display:block">
+                    <figcaption style="padding:.8rem 1rem;font-family:var(--font-mono);font-size:.68rem;letter-spacing:.12em;text-transform:uppercase;color:var(--pluto-faint)">Final · On Stand</figcaption>
+                </figure>
+            </div>
+
+            <div class="spec-list reveal" style="margin-top: 2rem;">
+                <div class="item">
+                    <div class="k">Overall Length</div>
+                    <div class="v">18<span class="u">ft</span></div>
+                </div>
+                <div class="item">
+                    <div class="k">Beam (Width)</div>
+                    <div class="v">30<span class="u">in</span></div>
+                </div>
+                <div class="item">
+                    <div class="k">Depth (Height)</div>
+                    <div class="v">18<span class="u">in</span></div>
+                </div>
+                <div class="item">
+                    <div class="k">Hull Thickness</div>
+                    <div class="v">0.5<span class="u">in</span></div>
+                </div>
+                <div class="item">
+                    <div class="k">Mix Density</div>
+                    <div class="v">68<span class="u">pcf</span></div>
+                </div>
             </div>
         </div>
     </section>
 
-    <!-- Team Section -->
-    <section id="team" class="section section-bg">
+    <!-- Engineering deep dive -->
+    <section class="section" id="engineering">
         <div class="container">
-            <h2 class="text-center mb-lg animate-fade-up">Meet Our Team</h2>
+            <div class="section-head reveal">
+                <div class="eyebrow">Engineering · 90% Design Report</div>
+                <h2>Analysis &amp; <span class="text-gradient">Materials.</span></h2>
+                <p>Finite element analysis in SolidWorks. A ten-component lightweight concrete mix. Real numbers,
+                    real tests, real data — detailed in our 90% Design Report.</p>
+            </div>
 
-            <!-- Student Team (2 per row) -->
-            <div class="grid grid-2 animate-fade-up">
-                <!-- Team Member 1 -->
-                <div class="team-card">
-                    <img src="images/team/amit-shah.jpg" alt="Amit Shah" class="team-img">
-                    <div class="team-info">
-                        <h4>Amit Shah</h4>
-                        <div class="team-role">Hull Design Lead & Paddle Lead</div>
-                        <div class="team-major">Civil Engineering</div>
-                        <a href="https://linkedin.com/in/amit-shah-227118257" target="_blank" class="team-linkedin"
-                            aria-label="LinkedIn Profile">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <div class="grid grid-2">
+                <div class="glass reveal" style="padding:0;overflow:hidden">
+                    <img src="images/project/hull-fea.jpg" alt="Orthogonal FEA Study — von Mises stress" style="width:100%;display:block">
+                    <div style="padding:1.5rem">
+                        <div class="eyebrow" style="margin-bottom:.5rem">Figure 4-6 · Orthogonal FEA Study</div>
+                        <h3 style="margin-bottom:.5rem">Stresses stay minimal</h3>
+                        <p style="color:var(--pluto-dim);font-size:.95rem">Von Mises stress plot shows max 73 psi
+                            at the 4.5 ft marker — well within the 1,900 psi compressive capacity of the selected
+                            mix. Carbon fiber mesh reinforces the shear zones.</p>
+                    </div>
+                </div>
+
+                <div class="glass reveal" style="padding:2rem">
+                    <div class="eyebrow" style="margin-bottom:1rem">Table 2-6 · Final Mix Proportions (per ft³)</div>
+                    <div style="display:grid;grid-template-columns:1fr auto;gap:.4rem .8rem;font-family:var(--font-mono);font-size:.85rem">
+                        <span style="color:var(--pluto-dim)">Fly Ash</span><span style="color:var(--pluto-white);font-weight:500">19.78 lbs</span>
+                        <span style="color:var(--pluto-dim)">Slag</span><span style="color:var(--pluto-white);font-weight:500">17.93 lbs</span>
+                        <span style="color:var(--pluto-dim)">Portland Cement</span><span style="color:var(--pluto-white);font-weight:500">21.54 lbs</span>
+                        <span style="color:var(--pluto-dim)">Poraver (lightweight agg)</span><span style="color:var(--pluto-white);font-weight:500">11.03 lbs</span>
+                        <span style="color:var(--pluto-dim)">K1 aggregate</span><span style="color:var(--pluto-white);font-weight:500">3.70 lbs</span>
+                        <span style="color:var(--pluto-dim)">Lime</span><span style="color:var(--pluto-white);font-weight:500">2.47 lbs</span>
+                        <span style="color:var(--pluto-dim)">Perlite</span><span style="color:var(--pluto-white);font-weight:500">1.85 lbs</span>
+                        <span style="color:var(--pluto-dim)">Fibers</span><span style="color:var(--pluto-white);font-weight:500">0.37 lbs</span>
+                        <span style="color:var(--pluto-dim)">Air Entrainer</span><span style="color:var(--pluto-white);font-weight:500">0.03 lbs</span>
+                        <span style="color:var(--pluto-dim)">Water</span><span style="color:var(--pluto-white);font-weight:500">23.05 lbs</span>
+                    </div>
+                    <div style="margin-top:1.5rem;padding-top:1.2rem;border-top:1px solid var(--border-glass)">
+                        <a href="documents/90-percent-design-report.pdf" target="_blank" rel="noopener" class="btn-ghost" style="padding:.7rem 1.2rem;font-size:.85rem">
+                            Read the 90% Design Report (PDF)
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M7 7h10v10M7 17L17 7" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team -->
+    <section class="section" id="team">
+        <div class="container">
+            <div class="section-head reveal">
+                <div class="eyebrow">03 · The Crew</div>
+                <h2>Five engineers. <span class="text-gradient">One dwarf planet.</span></h2>
+                <p>Meet the 2026 PLUTO Jacks — civil engineering seniors at Northern Arizona University.</p>
+            </div>
+
+            <div class="crew-grid">
+                <div class="crew-card reveal">
+                    <div class="crew-photo-wrap"><img src="images/team/amit-shah.jpg" alt="Amit Shah"></div>
+                    <h4>Amit Shah</h4>
+                    <div class="role">Structural Analysis Lead</div>
+                    <div class="major">Civil Engineering · NAU</div>
+                    <div class="links">
+                        <a href="mailto:as5449@nau.edu" aria-label="Email">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+                                <polyline points="22,6 12,13 2,6" />
+                            </svg>
+                        </a>
+                        <a href="https://linkedin.com/in/amit-shah-227118257" target="_blank" rel="noopener"
+                            aria-label="LinkedIn">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
                                 <path
                                     d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
                             </svg>
@@ -93,17 +295,22 @@
                     </div>
                 </div>
 
-                <!-- Team Member 2 -->
-                <div class="team-card">
-                    <img src="images/team/jonathan-alvarez-rojas.png" alt="Jonathan Alvarez Rojas" class="team-img"
-                        style="object-position: top;">
-                    <div class="team-info">
-                        <h4>Jonathan Alvarez Rojas</h4>
-                        <div class="team-role">Project Manager</div>
-                        <div class="team-major">Civil Engineering</div>
+                <div class="crew-card reveal">
+                    <div class="crew-photo-wrap"><img src="images/team/jonathan-alvarez-rojas.png"
+                            alt="Jonathan Alvarez Rojas" style="object-position:center top;"></div>
+                    <h4>Jonathan Alvarez Rojas</h4>
+                    <div class="role">Project Manager</div>
+                    <div class="major">Civil Engineering · NAU</div>
+                    <div class="links">
+                        <a href="mailto:ja3354@nau.edu" aria-label="Email">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+                                <polyline points="22,6 12,13 2,6" />
+                            </svg>
+                        </a>
                         <a href="https://www.linkedin.com/in/jonathan-alvarez-rojas-3b8ab328a/" target="_blank"
-                            class="team-linkedin" aria-label="LinkedIn Profile">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                            rel="noopener" aria-label="LinkedIn">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
                                 <path
                                     d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
                             </svg>
@@ -111,16 +318,21 @@
                     </div>
                 </div>
 
-                <!-- Team Member 3 -->
-                <div class="team-card">
-                    <img src="images/team/kayleigh-rice.jpg" alt="Kayleigh Rice" class="team-img">
-                    <div class="team-info">
-                        <h4>Kayleigh Rice</h4>
-                        <div class="team-role">Team Captain & QA/QC</div>
-                        <div class="team-major">Civil Engineering</div>
-                        <a href="https://www.linkedin.com/in/kayleigh-rice-15b5192a6/" target="_blank"
-                            class="team-linkedin" aria-label="LinkedIn Profile">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                <div class="crew-card reveal">
+                    <div class="crew-photo-wrap"><img src="images/team/kayleigh-rice.jpg" alt="Kayleigh Rice"></div>
+                    <h4>Kayleigh Rice</h4>
+                    <div class="role">Technical Report Lead</div>
+                    <div class="major">Civil Engineering · NAU</div>
+                    <div class="links">
+                        <a href="mailto:krr394@nau.edu" aria-label="Email">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+                                <polyline points="22,6 12,13 2,6" />
+                            </svg>
+                        </a>
+                        <a href="https://www.linkedin.com/in/kayleigh-rice-15b5192a6/" target="_blank" rel="noopener"
+                            aria-label="LinkedIn">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
                                 <path
                                     d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
                             </svg>
@@ -128,16 +340,21 @@
                     </div>
                 </div>
 
-                <!-- Team Member 4 -->
-                <div class="team-card">
-                    <img src="images/team/theo-greenan.jpg" alt="Theo Greenan" class="team-img">
-                    <div class="team-info">
-                        <h4>Theo Greenan</h4>
-                        <div class="team-role">Mix Design Lead</div>
-                        <div class="team-major">Civil Engineering</div>
-                        <a href="https://www.linkedin.com/in/theo-greenan-84a4b83a0/" target="_blank"
-                            class="team-linkedin" aria-label="LinkedIn Profile">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                <div class="crew-card reveal">
+                    <div class="crew-photo-wrap"><img src="images/team/theo-greenan.jpg" alt="Theo Greenan"></div>
+                    <h4>Theo Greenan</h4>
+                    <div class="role">Construction Lead</div>
+                    <div class="major">Civil Engineering · NAU</div>
+                    <div class="links">
+                        <a href="mailto:tjg398@nau.edu" aria-label="Email">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+                                <polyline points="22,6 12,13 2,6" />
+                            </svg>
+                        </a>
+                        <a href="https://www.linkedin.com/in/theo-greenan-84a4b83a0/" target="_blank" rel="noopener"
+                            aria-label="LinkedIn">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
                                 <path
                                     d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
                             </svg>
@@ -145,16 +362,21 @@
                     </div>
                 </div>
 
-                <!-- Team Member 5 -->
-                <div class="team-card">
-                    <img src="images/team/trevion-booker.jpg" alt="Trevion Booker" class="team-img">
-                    <div class="team-info">
-                        <h4>Trevion Booker</h4>
-                        <div class="team-role">Structural Design Lead</div>
-                        <div class="team-major">Civil Engineering</div>
-                        <a href="https://www.linkedin.com/in/tbooker/" target="_blank" class="team-linkedin"
-                            aria-label="LinkedIn Profile">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                <div class="crew-card reveal">
+                    <div class="crew-photo-wrap"><img src="images/team/trevion-booker.jpg" alt="Trevion Booker"></div>
+                    <h4>Trevion Booker</h4>
+                    <div class="role">Mix Design Lead</div>
+                    <div class="major">Civil Engineering · NAU</div>
+                    <div class="links">
+                        <a href="mailto:tb2379@nau.edu" aria-label="Email">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+                                <polyline points="22,6 12,13 2,6" />
+                            </svg>
+                        </a>
+                        <a href="https://www.linkedin.com/in/tbooker/" target="_blank" rel="noopener"
+                            aria-label="LinkedIn">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
                                 <path
                                     d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
                             </svg>
@@ -163,114 +385,157 @@
                 </div>
             </div>
 
-            <!-- Advisors Carousel Section -->
-            <div class="advisors-section animate-fade-up">
-                <h3 class="text-center mb-lg">Project Advisors</h3>
-                <div class="carousel-container">
-                    <button class="carousel-arrow carousel-arrow-left" aria-label="Previous Advisor">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
-                            <path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z" />
-                        </svg>
-                    </button>
-
-                    <div class="advisor-scroll-container" id="advisorCarousel">
-                        <!-- Robin Tuchscherer -->
-                        <div class="advisor-card">
-                            <img src="images/team/robin-tuchscherer.png" alt="Robin Tuchscherer" class="advisor-img">
-                            <div class="advisor-info">
-                                <h4>Robin Tuchscherer, Ph.D., P.E.</h4>
-                                <div class="advisor-role">Grading Instructor</div>
-                                <a href="mailto:Robin.Tuchscherer@nau.edu"
-                                    class="team-email">Robin.Tuchscherer@nau.edu</a>
-                            </div>
-                        </div>
-
-                        <!-- Mark Lamer -->
-                        <div class="advisor-card">
-                            <img src="images/team/mark-lamer.jpg" alt="Mark Lamer" class="advisor-img">
-                            <div class="advisor-info">
-                                <h4>Mark Lamer, P.E.</h4>
-                                <div class="advisor-role">Client</div>
-                                <a href="mailto:Mark.Lamer@nau.edu" class="team-email">Mark.Lamer@nau.edu</a>
-                            </div>
-                        </div>
-
-                        <!-- Taylor Layland -->
-                        <div class="advisor-card">
-                            <img src="images/team/taylor-layland.jpg" alt="Taylor Layland" class="advisor-img">
-                            <div class="advisor-info">
-                                <h4>Taylor Layland, P.E.</h4>
-                                <div class="advisor-role">Technical Advisor</div>
-                                <a href="mailto:taylor@remalconsulting.com"
-                                    class="team-email">taylor@remalconsulting.com</a>
-                            </div>
-                        </div>
+            <!-- Advisors -->
+            <div class="section-head reveal" style="margin-top:5rem">
+                <div class="eyebrow">Advisors · Client</div>
+                <h3>Mission Control</h3>
+            </div>
+            <div class="grid grid-3">
+                <div class="advisor-card reveal">
+                    <img src="images/team/mark-lamer.jpg" alt="Mark Lamer, P.E.">
+                    <div>
+                        <h4>Mark Lamer, P.E.</h4>
+                        <div class="role">Client · NAU CECMEE</div>
+                        <a href="mailto:Mark.Lamer@nau.edu">Mark.Lamer@nau.edu</a>
                     </div>
-
-                    <button class="carousel-arrow carousel-arrow-right" aria-label="Next Advisor">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
-                            <path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z" />
-                        </svg>
-                    </button>
+                </div>
+                <div class="advisor-card reveal">
+                    <img src="images/team/robin-tuchscherer.png" alt="Robin Tuchscherer, Ph.D., P.E.">
+                    <div>
+                        <h4>Robin Tuchscherer, Ph.D., P.E.</h4>
+                        <div class="role">Grading Instructor · NAU</div>
+                        <a href="mailto:Robin.Tuchscherer@nau.edu">Robin.Tuchscherer@nau.edu</a>
+                    </div>
+                </div>
+                <div class="advisor-card reveal">
+                    <img src="images/team/taylor-layland.jpg" alt="Taylor Layland, P.E.">
+                    <div>
+                        <h4>Taylor Layland, P.E.</h4>
+                        <div class="role">Technical Advisor</div>
+                        <span style="color:var(--pluto-faint);font-size:.8rem">Contact via team</span>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Sponsors Section -->
-    <section id="sponsors" class="section section-bg">
+    <!-- Sponsors -->
+    <section class="section" id="sponsor">
         <div class="container">
-            <h2 class="text-center mb-lg animate-fade-up">Our Sponsors</h2>
-            <div class="text-center animate-fade-up" style="max-width: 800px; margin: 0 auto;">
-                <p style="font-size: 1.2rem; color: rgba(255, 255, 255, 0.9); margin-bottom: 2rem; line-height: 1.6;">
-                    We are currently seeking sponsorships to support our 2026 Concrete Canoe project.
-                    Your contribution will help us design, build, and compete at the ASCE Intermountain Southwest
-                    Student Symposium.
-                </p>
-                <div
-                    style="background: rgba(51, 230, 255, 0.1); border: 2px solid rgba(51, 230, 255, 0.3); border-radius: 15px; padding: 2rem; margin-bottom: 2rem;">
-                    <h3 style="color: #33E6FF; margin-bottom: 1rem; font-size: 1.5rem;">Interested in Sponsoring?</h3>
-                    <p style="color: rgba(255, 255, 255, 0.8); margin-bottom: 1.5rem;">
-                        Contact us to learn about sponsorship opportunities and how your support can make a difference.
-                    </p>
-                    <a href="mailto:as5449@iris.nau.edu" class="btn" style="display: inline-block;">Get in Touch</a>
-                </div>
-                <p style="font-size: 0.9rem; color: rgba(255, 255, 255, 0.6); font-style: italic;">
-                    Thank you to our future sponsors for helping us bring this project to life!
-                </p>
+            <div class="section-head center reveal">
+                <div class="eyebrow" style="justify-content:center">04 · Confirmed Sponsors</div>
+                <h2>Fueled by our <span class="text-gold">partners.</span></h2>
+                <p>Deep thanks to the organizations backing PLUTO Jacks through material donations, testing, and
+                    competition support.</p>
             </div>
+
+            <h3 style="font-family:var(--font-mono);font-size:.75rem;letter-spacing:.25em;text-transform:uppercase;color:var(--pluto-faint);margin-bottom:1.5rem;text-align:center">Industry Sponsors</h3>
+            <div class="sponsor-wall reveal">
+                <a href="https://www.strongtie.com" target="_blank" rel="noopener" class="sponsor-card">
+                    <div class="logo-mark"><img src="images/sponsors/strongtie.png" alt="Simpson Strong-Tie"></div>
+                    <div class="name">Simpson Strong-Tie</div>
+                    <div class="tag">Structural Connectors</div>
+                    <div class="visit">strongtie.com →</div>
+                </a>
+                <a href="https://www.glasphera.com" target="_blank" rel="noopener" class="sponsor-card">
+                    <div class="logo-mark"><img src="images/sponsors/glasphera.png" alt="Glasphera"></div>
+                    <div class="name">Glasphera</div>
+                    <div class="tag">Lightweight Aggregates</div>
+                    <div class="visit">glasphera.com →</div>
+                </a>
+                <a href="https://www.oxendale.com" target="_blank" rel="noopener" class="sponsor-card">
+                    <div class="logo-mark"><img src="images/sponsors/oxendale.png" alt="Oxendale Auto Group"></div>
+                    <div class="name">Oxendale Auto Group</div>
+                    <div class="tag">Community Partner</div>
+                    <div class="visit">oxendale.com →</div>
+                </a>
+                <a href="https://www.fenaghengineering.com" target="_blank" rel="noopener" class="sponsor-card">
+                    <div class="logo-mark"><img src="images/sponsors/fenaghengineering.png"
+                            alt="Fenagh Engineering and Testing"></div>
+                    <div class="name">Fenagh Engineering &amp; Testing</div>
+                    <div class="tag">Materials Testing</div>
+                    <div class="visit">fenaghengineering.com →</div>
+                </a>
+            </div>
+
+            <h3 style="font-family:var(--font-mono);font-size:.75rem;letter-spacing:.25em;text-transform:uppercase;color:var(--pluto-faint);margin:3rem 0 1.5rem;text-align:center">Competition Hosts &amp; Institutions</h3>
+            <div class="sponsor-wall reveal">
+                <a href="https://www.asce.org" target="_blank" rel="noopener" class="sponsor-card">
+                    <div class="logo-mark"><img src="images/sponsors/asce.svg" alt="ASCE"></div>
+                    <div class="name">ASCE</div>
+                    <div class="tag">Competition Organizer</div>
+                    <div class="visit">asce.org →</div>
+                </a>
+                <a href="https://www.utah.edu" target="_blank" rel="noopener" class="sponsor-card">
+                    <div class="logo-mark"><img src="images/sponsors/utah.svg" alt="University of Utah"></div>
+                    <div class="name">University of Utah</div>
+                    <div class="tag">ISWS 2026 Host</div>
+                    <div class="visit">utah.edu →</div>
+                </a>
+                <a href="https://www.nau.edu" target="_blank" rel="noopener" class="sponsor-card">
+                    <div class="logo-mark"><img src="images/sponsors/nau.png" alt="Northern Arizona University"></div>
+                    <div class="name">Northern Arizona University</div>
+                    <div class="tag">Home Institution</div>
+                    <div class="visit">nau.edu →</div>
+                </a>
+            </div>
+
+            <p style="text-align:center;color:var(--pluto-faint);font-family:var(--font-mono);font-size:.75rem;letter-spacing:.2em;text-transform:uppercase;margin-top:1rem">
+                Thank you to every partner fueling Mission 2026.
+            </p>
         </div>
     </section>
 
-    <!-- Back to Top Button -->
-    <button id="backToTop" title="Back to Top">
-        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+    <!-- Back to top -->
+    <button id="backToTop" title="Back to Top" aria-label="Back to top">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
             stroke-linecap="round" stroke-linejoin="round">
             <path d="M12 19V5M5 12l7-7 7 7" />
         </svg>
     </button>
 
     <!-- Footer -->
-    <footer>
-        <div class="container">
-            <div class="footer-links">
-                <a href="index.html">Home</a>
-                <a href="team.html">Team</a>
-                <a href="video.html">Video</a>
-                <a href="project-info.html">Project Info</a>
-                <a href="design.html">Design</a>
-                <a href="documents.html">Documents</a>
-                <a href="gallery.html">Gallery</a>
+    <footer class="galaxy-footer">
+        <div class="footer-grid">
+            <div class="col brand-block">
+                <div class="nav-brand" style="margin-bottom:1rem">
+                    <img src="images/project/NAU-LOGO.png" alt="NAU" style="height:32px">
+                    <span>PLUTO Jacks</span>
+                </div>
+                <p>Northern Arizona University · 2025-2026 Concrete Canoe Capstone. Competing at the ASCE Intermountain
+                    Southwest Student Symposium.</p>
             </div>
-            <p>&copy; 2026 NAU Concrete Canoe Team. All Rights Reserved.</p>
-            <p style="font-size: 0.8rem; margin-top: 0.5rem; opacity: 0.6;">Home background photo courtesy of Unsplash.
-            </p>
-            <p style="font-size: 0.8rem; margin-top: 0.2rem; opacity: 0.6;">Advisor photos courtesy of CEIAS.</p>
-            <p style="font-size: 0.8rem; margin-top: 0.2rem; opacity: 0.6;">Last Updated: 12/02/25</p>
+            <div class="col">
+                <h5>Project</h5>
+                <a href="project-info.html">Overview</a>
+                <a href="design.html">Design</a>
+                <a href="gallery.html">Gallery</a>
+                <a href="documents.html">Documents</a>
+            </div>
+            <div class="col">
+                <h5>Team</h5>
+                <a href="team.html">Meet the Crew</a>
+                <a href="video.html">Engineering Video</a>
+                <a href="#sponsor">Sponsor Us</a>
+            </div>
+            <div class="col">
+                <h5>External</h5>
+                <a href="https://www.nau.edu/" target="_blank" rel="noopener">NAU ↗</a>
+                <a href="https://studentsymposium.asce.org/intermountain-southwest/" target="_blank"
+                    rel="noopener">ASCE ISWS ↗</a>
+                <a href="https://www.sce.nau.edu/capstone/d4p/" target="_blank" rel="noopener">CECMEE Capstone ↗</a>
+            </div>
+        </div>
+        <div class="bottom">
+            <span>© 2026 NAU Concrete Canoe · PLUTO Jacks</span>
+            <span>Last updated · 04.23.2026</span>
         </div>
     </footer>
 
-    <script src="js/script.js"></script>
+    <!-- Three.js CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.min.js"></script>
+    <script src="js/cosmos.js"></script>
+    <script src="js/galaxy-ui.js"></script>
 </body>
 
 </html>

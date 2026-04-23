@@ -7,13 +7,41 @@
     <title>Design - NAU Concrete Canoe 2026</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800&family=Open+Sans:wght@300;400;600;700&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap">
+    <link rel="stylesheet" href="css/galaxy.css">
+    <link rel="stylesheet" href="css/galaxy-compat.css">
 </head>
 
 <body>
+    <!-- Cosmic background -->
+    <canvas id="cosmos"></canvas>
+    <div id="cosmos-gradient"></div>
+
+    <!-- Galaxy Navigation -->
+    <nav class="galaxy-nav mobile-menu">
+        <div class="nav-inner">
+            <a href="index.html" class="nav-brand">
+                <img src="images/project/pluto-jacks-logo.jpg" alt="PLUTO Jacks" style="border-radius:50%;background:#fff;padding:3px">
+                <span>PLUTO Jacks</span>
+                <span class="orbit-dot"></span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="project-info.html">Project</a></li>
+                <li><a href="design.html">Design</a></li>
+                <li><a href="team.html">Team</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="video.html">Video</a></li>
+                <li><a href="documents.html">Documents</a></li>
+            </ul>
+            <button class="nav-toggle-btn" aria-label="Menu">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M3 6h18M3 12h18M3 18h18" />
+                </svg>
+            </button>
+        </div>
+    </nav>
 
     <!-- Header -->
     <header>
@@ -45,14 +73,13 @@
         </div>
     </section>
 
-    <!-- Pending Status Banner -->
-    <section class="section" style="padding: 2rem 0; background-color: rgba(255, 215, 0, 0.1);">
+    <!-- Source attribution -->
+    <section class="section" style="padding:1.5rem 0">
         <div class="container">
-            <div style="text-align: center; border: 2px dashed #ffd700; padding: 1.5rem; border-radius: 10px;">
-                <h3 style="color: #ffd700; margin-bottom: 0.5rem;"><i class="fa-solid fa-clock"></i> Design Phase
-                    Pending</h3>
-                <p style="margin-bottom: 0;">All design and analysis work for the 2026 Concrete Canoe project is
-                    scheduled to be completed in <strong>Spring 2026</strong>. The information below is preliminary.</p>
+            <div style="text-align:center;padding:1rem 1.5rem;border:1px solid var(--border-glass);border-radius:14px;background:var(--bg-panel);backdrop-filter:blur(10px)">
+                <p style="margin:0;font-family:var(--font-mono);font-size:.78rem;letter-spacing:.1em;text-transform:uppercase;color:var(--pluto-dim)">
+                    Source · <a href="documents/90-percent-design-report.pdf" target="_blank" rel="noopener" style="color:var(--pluto-ice)">90% Design Report</a> · April 2026
+                </p>
             </div>
         </div>
     </section>
@@ -60,184 +87,339 @@
     <!-- FontAwesome CDN -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
-    <!-- Design Alternatives Section -->
+    <!-- Hull Alternatives Section -->
     <section class="section">
         <div class="container">
-            <h2 class="text-center mb-lg animate-fade-up">Design Alternatives <span
-                    style="font-size: 0.6em; vertical-align: middle; opacity: 0.7; font-weight: 400; margin-left: 10px;">(Pending
-                    Spring 2026)</span></h2>
+            <h2 class="text-center mb-lg animate-fade-up">Hull Alternatives</h2>
+            <p class="text-center animate-fade-up" style="max-width:760px;margin:-1.5rem auto 3rem;color:var(--pluto-dim)">
+                Three candidate hulls were evaluated against four weighted criteria.
+                All dimensions in inches. L = length, w = width (beam), h = depth.
+            </p>
             <div class="grid grid-3 animate-fade-up">
-                <!-- Hull A -->
-                <div class="design-card">
-                    <div class="design-card-header">
-                        <h3>Hull A: "The Sprinter"</h3>
-                        <span class="badge badge-speed">Speed Focus</span>
-                    </div>
-                    <div class="design-img-placeholder">
-                        <img src="https://placehold.co/400x250?text=Hull+A+Profile" alt="Hull A Profile">
-                    </div>
-                    <div class="design-specs">
-                        <p><strong>Shape:</strong> V-Hull</p>
-                        <p><strong>Length:</strong> 21' 6"</p>
-                        <p><strong>Rocker:</strong> Minimal</p>
-                    </div>
-                    <ul class="pros-cons">
-                        <li class="pro"><i class="fa-solid fa-plus"></i> Excellent straight-line speed</li>
-                        <li class="pro"><i class="fa-solid fa-plus"></i> Low drag coefficient</li>
-                        <li class="con"><i class="fa-solid fa-minus"></i> Poor stability</li>
-                        <li class="con"><i class="fa-solid fa-minus"></i> Difficult turning</li>
-                    </ul>
-                </div>
-
-                <!-- Hull B -->
-                <div class="design-card">
-                    <div class="design-card-header">
-                        <h3>Hull B: "The Tank"</h3>
-                        <span class="badge badge-stability">Stability Focus</span>
-                    </div>
-                    <div class="design-img-placeholder">
-                        <img src="https://placehold.co/400x250?text=Hull+B+Profile" alt="Hull B Profile">
-                    </div>
-                    <div class="design-specs">
-                        <p><strong>Shape:</strong> Flat Bottom</p>
-                        <p><strong>Length:</strong> 19' 0"</p>
-                        <p><strong>Rocker:</strong> Moderate</p>
-                    </div>
-                    <ul class="pros-cons">
-                        <li class="pro"><i class="fa-solid fa-plus"></i> Maximum primary stability</li>
-                        <li class="pro"><i class="fa-solid fa-plus"></i> High maneuverability</li>
-                        <li class="con"><i class="fa-solid fa-minus"></i> Slow tracking</li>
-                        <li class="con"><i class="fa-solid fa-minus"></i> High wetted surface area</li>
-                    </ul>
-                </div>
-
-                <!-- Hull C (Winner) -->
                 <div class="design-card highlight-card">
                     <div class="design-card-header">
-                        <h3>Hull C: "The Hybrid"</h3>
-                        <span class="badge badge-winner">Selected Design</span>
+                        <h3>Hull A</h3>
+                        <span class="badge badge-winner">Selected · Final</span>
                     </div>
                     <div class="design-img-placeholder">
-                        <img src="https://placehold.co/400x250?text=Hull+C+Profile" alt="Hull C Profile">
+                        <img src="images/project/hull-3d-model.jpg" alt="Hull A — selected final design" style="background:linear-gradient(135deg,#0a0520,#1a0f3e);padding:.8rem">
                     </div>
                     <div class="design-specs">
-                        <p><strong>Shape:</strong> Asymmetric</p>
-                        <p><strong>Length:</strong> 20' 8"</p>
-                        <p><strong>Rocker:</strong> Variable</p>
+                        <p><strong>Dimensions:</strong> 18 × 30 × 18</p>
+                        <p><strong>Cross-Section:</strong> Arch</p>
+                        <p><strong>Rocker:</strong> No</p>
                     </div>
                     <ul class="pros-cons">
-                        <li class="pro"><i class="fa-solid fa-plus"></i> Balanced speed & stability</li>
-                        <li class="pro"><i class="fa-solid fa-plus"></i> Optimized tracking</li>
-                        <li class="pro"><i class="fa-solid fa-plus"></i> Good cornering ability</li>
-                        <li class="con"><i class="fa-solid fa-minus"></i> Complex mold construction</li>
+                        <li class="pro"><i class="fa-solid fa-plus"></i> Best constructability (arch, no rocker)</li>
+                        <li class="pro"><i class="fa-solid fa-plus"></i> Solid primary stability</li>
+                        <li class="pro"><i class="fa-solid fa-plus"></i> Straightforward mold fabrication</li>
+                        <li class="con"><i class="fa-solid fa-minus"></i> Lower maneuverability (no rocker)</li>
                     </ul>
+                    <div style="margin-top:1rem;padding-top:1rem;border-top:1px solid var(--border-glass);text-align:center;font-family:var(--font-mono);font-size:.8rem;color:var(--pluto-gold);letter-spacing:.1em;text-transform:uppercase;font-weight:600">Score · 1.18 ✓</div>
+                </div>
+
+                <div class="design-card">
+                    <div class="design-card-header">
+                        <h3>Hull B</h3>
+                        <span class="badge badge-stability">Notched · Rocker</span>
+                    </div>
+                    <div class="design-img-placeholder">
+                        <img src="images/project/hull-3d-model.jpg" alt="Hull B profile" style="background:linear-gradient(135deg,#0a0520,#1a0f3e);padding:.8rem">
+                    </div>
+                    <div class="design-specs">
+                        <p><strong>Dimensions:</strong> 18 × 30 × 18</p>
+                        <p><strong>Cross-Section:</strong> Notched</p>
+                        <p><strong>Rocker:</strong> Yes</p>
+                    </div>
+                    <ul class="pros-cons">
+                        <li class="pro"><i class="fa-solid fa-plus"></i> Good primary stability</li>
+                        <li class="pro"><i class="fa-solid fa-plus"></i> Better maneuverability from rocker</li>
+                        <li class="con"><i class="fa-solid fa-minus"></i> Notched section hurts constructability</li>
+                        <li class="con"><i class="fa-solid fa-minus"></i> Reduced straight-line speed</li>
+                    </ul>
+                    <div style="margin-top:1rem;padding-top:1rem;border-top:1px solid var(--border-glass);text-align:center;font-family:var(--font-mono);font-size:.8rem;color:var(--pluto-faint);letter-spacing:.1em;text-transform:uppercase">Score · 1.00</div>
+                </div>
+
+                <div class="design-card">
+                    <div class="design-card-header">
+                        <h3>Hull C</h3>
+                        <span class="badge badge-speed">Arch · Rocker</span>
+                    </div>
+                    <div class="design-img-placeholder">
+                        <img src="images/project/hull-3d-model.jpg" alt="Hull C profile" style="background:linear-gradient(135deg,#0a0520,#1a0f3e);padding:.8rem">
+                    </div>
+                    <div class="design-specs">
+                        <p><strong>Dimensions:</strong> 16 × 30 × 16</p>
+                        <p><strong>Cross-Section:</strong> Arch</p>
+                        <p><strong>Rocker:</strong> Yes</p>
+                    </div>
+                    <ul class="pros-cons">
+                        <li class="pro"><i class="fa-solid fa-plus"></i> Highest stability (low profile)</li>
+                        <li class="pro"><i class="fa-solid fa-plus"></i> Best maneuverability</li>
+                        <li class="con"><i class="fa-solid fa-minus"></i> Shorter hull reduces capacity</li>
+                        <li class="con"><i class="fa-solid fa-minus"></i> Rocker complicates the mold</li>
+                    </ul>
+                    <div style="margin-top:1rem;padding-top:1rem;border-top:1px solid var(--border-glass);text-align:center;font-family:var(--font-mono);font-size:.8rem;color:var(--pluto-faint);letter-spacing:.1em;text-transform:uppercase">Score · 1.17</div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Decision Matrix Section -->
+    <!-- Hull Decision Matrix Section -->
     <section class="section section-bg">
         <div class="container">
-            <h2 class="text-center mb-lg animate-fade-up">Decision Matrix <span
-                    style="font-size: 0.6em; vertical-align: middle; opacity: 0.7; font-weight: 400; margin-left: 10px;">(Rough
-                    Draft - Finalizing Spring 2026)</span></h2>
+            <h2 class="text-center mb-lg animate-fade-up">Hull Decision Matrix</h2>
+            <p class="text-center animate-fade-up" style="max-width:720px;margin:-1.5rem auto 2rem;color:var(--pluto-dim);font-size:.95rem">
+                Stability and straight-line speed carried the highest weights, given the 3 Sprint vs. 2 Slalom race breakdown at the ISWS Symposium. Scores shown are weighted (raw × weight).
+            </p>
             <div class="matrix-container animate-fade-up">
                 <table class="matrix-table">
                     <thead>
                         <tr>
                             <th>Criteria</th>
                             <th>Weight</th>
-                            <th>Hull A (Speed)</th>
-                            <th>Hull B (Stability)</th>
-                            <th class="highlight-col">Hull C (Hybrid)</th>
+                            <th class="highlight-col">Hull A (Arch, No Rocker)</th>
+                            <th>Hull B (Notched, Rocker)</th>
+                            <th>Hull C (Arch, Rocker)</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
+                            <td>Stability</td>
+                            <td>40%</td>
+                            <td class="highlight-col">0.50</td>
+                            <td>0.50</td>
+                            <td>0.67</td>
+                        </tr>
+                        <tr>
                             <td>Straight Line Speed</td>
-                            <td>30%</td>
-                            <td>9</td>
-                            <td>4</td>
-                            <td class="highlight-col">8</td>
+                            <td>25%</td>
+                            <td class="highlight-col">0.17</td>
+                            <td>0.20</td>
+                            <td>0.17</td>
                         </tr>
                         <tr>
                             <td>Maneuverability</td>
-                            <td>25%</td>
-                            <td>3</td>
-                            <td>9</td>
-                            <td class="highlight-col">7</td>
-                        </tr>
-                        <tr>
-                            <td>Primary Stability</td>
-                            <td>25%</td>
-                            <td>4</td>
-                            <td>10</td>
-                            <td class="highlight-col">8</td>
-                        </tr>
-                        <tr>
-                            <td>Tracking</td>
                             <td>20%</td>
-                            <td>8</td>
-                            <td>5</td>
-                            <td class="highlight-col">8</td>
+                            <td class="highlight-col">0.17</td>
+                            <td>0.22</td>
+                            <td>0.25</td>
+                        </tr>
+                        <tr>
+                            <td>Constructability</td>
+                            <td>15%</td>
+                            <td class="highlight-col">0.34</td>
+                            <td>0.08</td>
+                            <td>0.08</td>
                         </tr>
                         <tr class="total-row">
-                            <td><strong>Weighted Score</strong></td>
+                            <td><strong>Total Weighted Score</strong></td>
                             <td><strong>100%</strong></td>
-                            <td><strong>6.05</strong></td>
-                            <td><strong>7.00</strong></td>
-                            <td class="highlight-col"><strong>7.75</strong></td>
+                            <td class="highlight-col"><strong>1.18 ✓</strong></td>
+                            <td><strong>1.00</strong></td>
+                            <td><strong>1.17</strong></td>
                         </tr>
                     </tbody>
                 </table>
             </div>
+            <p class="text-center animate-fade-up" style="margin-top:1.5rem;font-family:var(--font-mono);font-size:.75rem;letter-spacing:.12em;text-transform:uppercase;color:var(--pluto-faint)">
+                Source · 90% Design Report · Table 3-1
+            </p>
         </div>
     </section>
 
-    <!-- Final Design Blueprint Section -->
+    <!-- Mix Design Alternatives + Decision Matrix -->
+    <section class="section">
+        <div class="container">
+            <h2 class="text-center mb-lg animate-fade-up">Mix Design Decision Matrix</h2>
+            <p class="text-center animate-fade-up" style="max-width:760px;margin:-1.5rem auto 2rem;color:var(--pluto-dim);font-size:.95rem">
+                Four trial mixes were batched and tested per ASTM C39, C143, C496. Density was weighted highest (30%) because the canoe must float under load.
+            </p>
+            <div class="matrix-container animate-fade-up">
+                <table class="matrix-table">
+                    <thead>
+                        <tr>
+                            <th>Criteria</th>
+                            <th>Weight</th>
+                            <th>Mix 1</th>
+                            <th>Mix 2</th>
+                            <th>Mix 3</th>
+                            <th class="highlight-col">Mix 4 (Selected)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Density</td><td>30%</td>
+                            <td>78.4 pcf</td><td>83.6 pcf</td><td>58.6 pcf</td>
+                            <td class="highlight-col">67.2 pcf</td>
+                        </tr>
+                        <tr>
+                            <td>Compressive Strength</td><td>20%</td>
+                            <td>3,350 psi</td><td>3,180 psi</td><td>520 psi</td>
+                            <td class="highlight-col">2,260 psi</td>
+                        </tr>
+                        <tr>
+                            <td>Tensile Strength</td><td>10%</td>
+                            <td>500 psi</td><td>440 psi</td><td>72 psi</td>
+                            <td class="highlight-col">360 psi</td>
+                        </tr>
+                        <tr>
+                            <td>Workability (Slump)</td><td>20%</td>
+                            <td>10 in</td><td>2 in</td><td>6 in</td>
+                            <td class="highlight-col">2 in</td>
+                        </tr>
+                        <tr>
+                            <td>Cost</td><td>10%</td>
+                            <td>$800</td><td>$800</td><td>$1,200</td>
+                            <td class="highlight-col">$1,000</td>
+                        </tr>
+                        <tr>
+                            <td>Durability (1–3)</td><td>10%</td>
+                            <td>3</td><td>3</td><td>2</td>
+                            <td class="highlight-col">3</td>
+                        </tr>
+                        <tr class="total-row">
+                            <td><strong>Weighted Score</strong></td>
+                            <td><strong>100%</strong></td>
+                            <td><strong>69.9</strong></td>
+                            <td><strong>67.8</strong></td>
+                            <td><strong>53.4</strong></td>
+                            <td class="highlight-col"><strong>84.3 ✓</strong></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <p class="text-center animate-fade-up" style="margin-top:1.5rem;font-family:var(--font-mono);font-size:.75rem;letter-spacing:.12em;text-transform:uppercase;color:var(--pluto-faint)">
+                Source · 90% Design Report · Table 2-12
+            </p>
+        </div>
+    </section>
+
+    <!-- Final Design Specs -->
     <section class="section blueprint-section">
         <div class="container">
-            <h2 class="text-center mb-lg animate-fade-up" style="color: #fff;">Final Design Specifications <span
-                    style="font-size: 0.6em; vertical-align: middle; opacity: 0.7; font-weight: 400; margin-left: 10px;">(Pending
-                    Spring 2026)</span></h2>
+            <h2 class="text-center mb-lg animate-fade-up" style="color:#fff">Final Hull Design — Hull A</h2>
             <div class="blueprint-grid animate-fade-up">
                 <div class="blueprint-details">
                     <h3>Technical Specifications</h3>
                     <ul class="blueprint-list">
-                        <li><strong>Length Overall:</strong> 20' 8"</li>
-                        <li><strong>Max Beam:</strong> 32"</li>
-                        <li><strong>Depth:</strong> 14"</li>
-                        <li><strong>Hull Thickness:</strong> 0.5" - 0.75"</li>
-                        <li><strong>Estimated Weight:</strong> 185 lbs</li>
-                        <li><strong>Concrete Density:</strong> 58 lb/ft³</li>
+                        <li><strong>Length Overall:</strong> 18 ft</li>
+                        <li><strong>Beam (Width):</strong> 30 in</li>
+                        <li><strong>Depth (Height):</strong> 18 in</li>
+                        <li><strong>Cross-Section:</strong> Arch</li>
+                        <li><strong>Rocker:</strong> None</li>
+                        <li><strong>Hull Thickness:</strong> 0.5 in</li>
+                        <li><strong>Cross-Section Area:</strong> 26.31 in²</li>
+                        <li><strong>Moment of Inertia:</strong> 834.07 in⁴</li>
+                        <li><strong>Concrete Density:</strong> 68 pcf</li>
+                        <li><strong>Compressive Strength:</strong> 1,900 psi</li>
+                        <li><strong>Max Bending Moment:</strong> 224.22 lb-ft</li>
+                        <li><strong>Factor of Safety:</strong> 2.06</li>
                     </ul>
                     <div class="blueprint-note">
                         <i class="fa-solid fa-circle-info"></i>
-                        <p>Design features an asymmetric hull with a sharper bow for entry and a flattened stern for
-                            stability during turns.</p>
+                        <p>Arch cross-section paired with zero rocker delivers the highest constructability score
+                            while maintaining a 2.06 capacity-to-demand factor of safety with carbon-fiber mesh
+                            reinforcement.</p>
                     </div>
                 </div>
                 <div class="blueprint-drawing">
-                    <img src="https://placehold.co/800x500?text=Final+CAD+Drawing+(Profile+%26+Cross-Sections)"
-                        alt="Final CAD Drawing">
+                    <img src="images/project/hull-fea.jpg" alt="Orthogonal FEA Von Mises stress" style="width:100%;border-radius:16px">
+                    <p style="margin-top:.7rem;font-family:var(--font-mono);font-size:.72rem;letter-spacing:.12em;text-transform:uppercase;color:var(--pluto-faint);text-align:center">Fig 4-6 · Orthogonal FEA · Max 73 psi</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Estimated vs Actual Time and Cost Placeholder -->
-    <section class="section">
+    <!-- Construction & Fabrication -->
+    <section class="section" id="construction">
         <div class="container">
-            <h2 class="text-center mb-lg animate-fade-up">Estimated vs Actual Time and Cost</h2>
-            <div class="animate-fade-up"
-                style="text-align: center; padding: 3rem; border: 2px dashed var(--color-secondary); border-radius: 12px; background: rgba(51, 230, 255, 0.05);">
-                <i class="fa-solid fa-chart-line"
-                    style="font-size: 3rem; color: var(--color-secondary); margin-bottom: 1rem;"></i>
-                <h3 style="margin-bottom: 1rem;">Comparison Data Pending</h3>
-                <p>Detailed comparison of estimated versus actual project time and costs will be available upon project
-                    completion in Spring 2026.</p>
+            <h2 class="text-center mb-lg animate-fade-up">Construction &amp; Fabrication</h2>
+            <p class="text-center animate-fade-up" style="max-width:760px;margin:-1.5rem auto 3rem;color:var(--pluto-dim)">
+                From mold to pour to finish. A female foam mold was chosen so the entire canoe could be placed
+                in a single day. Flex-seal lined the interior for a smooth cure. Concrete was batched per ASTM C685.
+            </p>
+            <div class="grid grid-3 animate-fade-up" style="gap:1.2rem">
+                <figure class="glass" style="padding:0;overflow:hidden;margin:0">
+                    <img src="images/gallery/mold-cutting.jpg" alt="Cutting cross sections" style="width:100%;aspect-ratio:4/3;object-fit:cover;display:block">
+                    <figcaption style="padding:1rem 1.2rem">
+                        <div class="eyebrow" style="font-size:.7rem;margin-bottom:.3rem">Mold · Step 1</div>
+                        <p style="color:var(--pluto-dim);font-size:.88rem;margin:0">Foam insulation board cut into 4'×2' sections, cross-sections drawn with labels (A1-A4, B1-B4…), then hot-knife cut.</p>
+                    </figcaption>
+                </figure>
+                <figure class="glass" style="padding:0;overflow:hidden;margin:0">
+                    <img src="images/gallery/cross-section-alignment.jpg" alt="Cross section alignment" style="width:100%;aspect-ratio:4/3;object-fit:cover;display:block">
+                    <figcaption style="padding:1rem 1.2rem">
+                        <div class="eyebrow" style="font-size:.7rem;margin-bottom:.3rem">Mold · Step 2</div>
+                        <p style="color:var(--pluto-dim);font-size:.88rem;margin:0">Cross sections glued together in order, wooden frame fitted to compress the length and prevent separation during cure.</p>
+                    </figcaption>
+                </figure>
+                <figure class="glass" style="padding:0;overflow:hidden;margin:0">
+                    <img src="images/gallery/final-canoe-mold.jpg" alt="Final canoe mold" style="width:100%;aspect-ratio:4/3;object-fit:cover;display:block">
+                    <figcaption style="padding:1rem 1.2rem">
+                        <div class="eyebrow" style="font-size:.7rem;margin-bottom:.3rem">Mold · Final</div>
+                        <p style="color:var(--pluto-dim);font-size:.88rem;margin:0">Interior sanded, black flex-seal coat applied to prevent concrete from bonding to foam. Vaseline layer added for demold.</p>
+                    </figcaption>
+                </figure>
+                <figure class="glass" style="padding:0;overflow:hidden;margin:0">
+                    <img src="images/gallery/concrete-batching.jpg" alt="Concrete batching" style="width:100%;aspect-ratio:4/3;object-fit:cover;display:block">
+                    <figcaption style="padding:1rem 1.2rem">
+                        <div class="eyebrow" style="font-size:.7rem;margin-bottom:.3rem">Batching · ASTM C685</div>
+                        <p style="color:var(--pluto-dim);font-size:.88rem;margin:0">Materials weighed per cubic foot: cementitious first (fly ash, slag, Portland), then aggregates, water, admixtures, fibers last.</p>
+                    </figcaption>
+                </figure>
+                <figure class="glass" style="padding:0;overflow:hidden;margin:0">
+                    <img src="images/gallery/canoe-unloading.jpg" alt="Unloading canoe" style="width:100%;aspect-ratio:4/3;object-fit:cover;display:block">
+                    <figcaption style="padding:1rem 1.2rem">
+                        <div class="eyebrow" style="font-size:.7rem;margin-bottom:.3rem">Transport</div>
+                        <p style="color:var(--pluto-dim);font-size:.88rem;margin:0">Cured canoe transported from NAU Field Station to the competition site. Painted with RIT-dye space theme — stain only, no surface paint (ASCE rule).</p>
+                    </figcaption>
+                </figure>
+                <figure class="glass" style="padding:0;overflow:hidden;margin:0">
+                    <img src="images/gallery/canoe-water-paddle.jpg" alt="On water" style="width:100%;aspect-ratio:4/3;object-fit:cover;display:block">
+                    <figcaption style="padding:1rem 1.2rem">
+                        <div class="eyebrow" style="font-size:.7rem;margin-bottom:.3rem">Race · NAU PLUTO</div>
+                        <p style="color:var(--pluto-dim);font-size:.88rem;margin:0">Paddle-tested on water — floats, tracks, races. Mission accomplished.</p>
+                    </figcaption>
+                </figure>
             </div>
+        </div>
+    </section>
+
+    <!-- Cost of Construction -->
+    <section class="section" id="cost-construction">
+        <div class="container">
+            <h2 class="text-center mb-lg animate-fade-up">Cost of Construction</h2>
+            <p class="text-center animate-fade-up" style="max-width:720px;margin:-1.5rem auto 2.5rem;color:var(--pluto-dim);font-size:.95rem">
+                Materials budget for the Mix 4 final design, mold construction, and finishing.
+            </p>
+            <div class="matrix-container animate-fade-up" style="max-width:780px;margin:0 auto">
+                <table class="matrix-table">
+                    <thead>
+                        <tr>
+                            <th>Line Item</th>
+                            <th>Category</th>
+                            <th>Estimated Cost</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>Concrete mix (Mix 4 — per Table 2-12)</td><td>Materials</td><td>$1,000</td></tr>
+                        <tr><td>Foam insulation board, glue, flex-seal</td><td>Mold</td><td>$350</td></tr>
+                        <tr><td>Carbon fiber reinforcement mesh</td><td>Reinforcement</td><td>$275</td></tr>
+                        <tr><td>RIT dye, sealant, finishing supplies</td><td>Finishing</td><td>$180</td></tr>
+                        <tr><td>Stand lumber + paint</td><td>Display</td><td>$120</td></tr>
+                        <tr><td>ASTM testing consumables (cylinders, etc.)</td><td>Testing</td><td>$150</td></tr>
+                        <tr><td>Transportation fuel &amp; trailer</td><td>Logistics</td><td>$220</td></tr>
+                        <tr class="total-row">
+                            <td><strong>Total Estimated Construction Cost</strong></td><td></td>
+                            <td class="highlight-col"><strong>$2,295</strong></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <p class="text-center animate-fade-up" style="margin-top:1.5rem;font-family:var(--font-mono);font-size:.72rem;letter-spacing:.1em;text-transform:uppercase;color:var(--pluto-faint)">
+                Estimates · Final numbers in the Final Report
+            </p>
         </div>
     </section>
 
@@ -266,7 +448,44 @@
         </div>
     </footer>
 
-    <script src="js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.min.js"></script>
+    <script src="js/cosmos.js"></script>
+    <script src="js/galaxy-ui.js"></script>
+    <!-- Galaxy Footer -->
+    <footer class="galaxy-footer">
+        <div class="footer-grid">
+            <div class="col brand-block">
+                <div class="nav-brand" style="margin-bottom:1rem">
+                    <img src="images/project/NAU-LOGO.png" alt="NAU" style="height:32px">
+                    <span>PLUTO Jacks</span>
+                </div>
+                <p>Northern Arizona University · 2025-2026 Concrete Canoe Capstone. Competing at the ASCE Intermountain Southwest Student Symposium.</p>
+            </div>
+            <div class="col">
+                <h5>Project</h5>
+                <a href="project-info.html">Overview</a>
+                <a href="design.html">Design</a>
+                <a href="gallery.html">Gallery</a>
+                <a href="documents.html">Documents</a>
+            </div>
+            <div class="col">
+                <h5>Team</h5>
+                <a href="team.html">Meet the Crew</a>
+                <a href="video.html">Engineering Video</a>
+                <a href="index.html#sponsor">Sponsor Us</a>
+            </div>
+            <div class="col">
+                <h5>External</h5>
+                <a href="https://www.nau.edu/" target="_blank" rel="noopener">NAU ↗</a>
+                <a href="https://studentsymposium.asce.org/intermountain-southwest/" target="_blank" rel="noopener">ASCE ISWS ↗</a>
+                <a href="https://www.sce.nau.edu/capstone/d4p/" target="_blank" rel="noopener">CECMEE Capstone ↗</a>
+            </div>
+        </div>
+        <div class="bottom">
+            <span>© 2026 NAU Concrete Canoe · PLUTO Jacks</span>
+            <span>Last updated · 04.23.2026</span>
+        </div>
+    </footer>
 </body>
 
 </html>

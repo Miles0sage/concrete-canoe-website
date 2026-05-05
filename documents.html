@@ -78,19 +78,6 @@
     <section class="section">
         <div class="container">
 
-            <!-- Instructor Feedback / Pending Items -->
-            <div class="animate-fade-up" style="background:rgba(120,255,180,0.06);border:1px solid rgba(120,255,180,0.4);border-radius:14px;padding:1.5rem 1.75rem;margin-bottom:2.5rem">
-                <h2 style="margin:0 0 0.75rem;font-size:1.25rem;color:#9ef0c0"><i class="fa-solid fa-clipboard-check"></i> Final Deliverables &amp; Instructor Feedback</h2>
-                <ul style="margin:0;padding-left:1.25rem;line-height:1.7;color:#e8eaf2">
-                    <li><strong>Updated 90% Design Report</strong> &rarr; live (replaces prior version).</li>
-                    <li><strong>ISWS Final Presentation</strong> (hull slide incorporated) &rarr; live.</li>
-                    <li><strong>Infographic (Hull A)</strong> &rarr; live.</li>
-                    <li><strong>UGRADS 2026 Poster</strong> (Hull A infographic) &rarr; live.</li>
-                    <li><strong>Engineering video</strong> &rarr; removed per instructor (&ldquo;add video or take it off&rdquo;).</li>
-                    <li><strong>NAU SCE server</strong> upload &rarr; pending after final review.</li>
-                </ul>
-            </div>
-
             <!-- Category 1: Project Management & Planning -->
             <h2 class="section-title animate-fade-up"><i class="fa-solid fa-tasks"></i> Project Management & Planning
             </h2>
@@ -145,13 +132,32 @@
                         <i class="fa-solid fa-flask"></i>
                     </div>
                     <div class="doc-info">
-                        <h3>90% Design Report</h3>
+                        <h3>Final Design Report</h3>
                         <span class="doc-date">Apr 2026</span>
                         <span class="badge badge-completed">Latest</span>
                         <p style="font-size: 0.82rem; margin-top: 0.5rem; opacity: 0.85;">Mix design, structural
                             analysis, FEA, construction &mdash; full technical doc.</p>
                     </div>
-                    <a href="documents/90-percent-design-report.pdf" class="btn btn-sm btn-outline" download>Download PDF</a>
+                    <div style="display:flex;gap:.5rem;flex-wrap:wrap">
+                        <button class="btn btn-sm btn-outline pdf-preview-btn" data-pdf="documents/final-design-report.pdf" data-title="Final Design Report"><i class="fa-solid fa-eye"></i>&nbsp;Preview</button>
+                        <a href="documents/final-design-report.pdf" class="btn btn-sm btn-outline" download>Download</a>
+                    </div>
+                </div>
+
+                <div class="doc-card">
+                    <div class="doc-icon">
+                        <i class="fa-solid fa-hammer"></i>
+                    </div>
+                    <div class="doc-info">
+                        <h3>Construction Document</h3>
+                        <span class="doc-date">Apr 2026</span>
+                        <span class="badge badge-completed">Latest</span>
+                        <p style="font-size: 0.82rem; margin-top: 0.5rem; opacity: 0.85;">Complete print package &mdash; mold, bulkheads, shop drawings, build sequence.</p>
+                    </div>
+                    <div style="display:flex;gap:.5rem;flex-wrap:wrap">
+                        <button class="btn btn-sm btn-outline pdf-preview-btn" data-pdf="documents/construction-document.pdf" data-title="Construction Document"><i class="fa-solid fa-eye"></i>&nbsp;Preview</button>
+                        <a href="documents/construction-document.pdf" class="btn btn-sm btn-outline" download>Download</a>
+                    </div>
                 </div>
 
                 <div class="doc-card">
@@ -159,11 +165,15 @@
                         <i class="fa-solid fa-calculator"></i>
                     </div>
                     <div class="doc-info">
-                        <h3>Analysis Reports</h3>
-                        <span class="doc-date">Spring 2026</span>
-                        <span class="badge badge-pending">Pending</span>
+                        <h3>Hull Design Calculations</h3>
+                        <span class="doc-date">Apr 2026</span>
+                        <span class="badge badge-completed">Latest</span>
+                        <p style="font-size: 0.82rem; margin-top: 0.5rem; opacity: 0.85;">Appendix C &mdash; integrated structural analysis, hydrostatics, FEA inputs.</p>
                     </div>
-                    <button class="btn btn-sm btn-disabled" disabled>Coming Soon</button>
+                    <div style="display:flex;gap:.5rem;flex-wrap:wrap">
+                        <button class="btn btn-sm btn-outline pdf-preview-btn" data-pdf="documents/analysis-report.pdf" data-title="Hull Design Calculations"><i class="fa-solid fa-eye"></i>&nbsp;Preview</button>
+                        <a href="documents/analysis-report.pdf" class="btn btn-sm btn-outline" download>Download</a>
+                    </div>
                 </div>
             </div>
 
@@ -180,7 +190,10 @@
                         <span class="badge badge-winner">Final</span>
                         <p style="font-size:0.82rem;margin:0.5rem 0 0;opacity:0.85">One-page visual summary of selected hull and mix design.</p>
                     </div>
-                    <a href="documents/infographic.pdf" class="btn btn-sm btn-outline" download>Download PDF</a>
+                    <div style="display:flex;gap:.5rem;flex-wrap:wrap">
+                        <button class="btn btn-sm btn-outline pdf-preview-btn" data-pdf="documents/infographic.pdf" data-title="Infographic (Hull A)"><i class="fa-solid fa-eye"></i>&nbsp;Preview</button>
+                        <a href="documents/infographic.pdf" class="btn btn-sm btn-outline" download>Download</a>
+                    </div>
                 </div>
 
                 <div class="doc-card">
@@ -193,7 +206,10 @@
                         <span class="badge badge-winner">Final</span>
                         <p style="font-size:0.82rem;margin:0.5rem 0 0;opacity:0.85">PLUTO Jacks competition deck (hull slide incorporated).</p>
                     </div>
-                    <a href="documents/final-presentation.pdf" class="btn btn-sm btn-outline" download>Download PDF</a>
+                    <div style="display:flex;gap:.5rem;flex-wrap:wrap">
+                        <button class="btn btn-sm btn-outline pdf-preview-btn" data-pdf="documents/final-presentation.pdf" data-title="ISWS Final Presentation"><i class="fa-solid fa-eye"></i>&nbsp;Preview</button>
+                        <a href="documents/final-presentation.pdf" class="btn btn-sm btn-outline" download>Download</a>
+                    </div>
                 </div>
 
                 <div class="doc-card">
@@ -206,7 +222,10 @@
                         <span class="badge badge-winner">Final</span>
                         <p style="font-size:0.82rem;margin:0.5rem 0 0;opacity:0.85">Capstone infographic — selected hull and mix design.</p>
                     </div>
-                    <a href="documents/infographic.pdf" class="btn btn-sm btn-outline" download>Download PDF</a>
+                    <div style="display:flex;gap:.5rem;flex-wrap:wrap">
+                        <button class="btn btn-sm btn-outline pdf-preview-btn" data-pdf="documents/infographic.pdf" data-title="UGRADS 2026 Poster"><i class="fa-solid fa-eye"></i>&nbsp;Preview</button>
+                        <a href="documents/infographic.pdf" class="btn btn-sm btn-outline" download>Download</a>
+                    </div>
                 </div>
             </div>
 
@@ -316,6 +335,50 @@
             <span>Last updated · 04.23.2026</span>
         </div>
     </footer>
+
+    <!-- PDF Preview Modal -->
+    <div id="pdfModal" style="display:none;position:fixed;inset:0;z-index:9999;background:rgba(2,5,18,0.92);backdrop-filter:blur(8px);padding:2rem;flex-direction:column" role="dialog" aria-modal="true" aria-label="PDF preview">
+        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:1rem;color:#fff;flex-wrap:wrap;gap:.75rem">
+            <h3 id="pdfModalTitle" style="margin:0;font-size:1.1rem;color:#9ef0c0"></h3>
+            <div style="display:flex;gap:.5rem">
+                <a id="pdfModalDownload" href="#" download class="btn btn-sm btn-outline"><i class="fa-solid fa-download"></i>&nbsp;Download</a>
+                <button id="pdfModalClose" class="btn btn-sm btn-outline" aria-label="Close preview"><i class="fa-solid fa-xmark"></i>&nbsp;Close</button>
+            </div>
+        </div>
+        <iframe id="pdfModalFrame" src="" style="flex:1;width:100%;border:1px solid rgba(255,255,255,0.15);border-radius:12px;background:#0a0520" title="PDF preview"></iframe>
+        <p style="margin:.75rem 0 0;font-size:.75rem;color:#aab;text-align:center">Preview uses your browser&apos;s built-in PDF viewer. If it doesn&apos;t render (mobile / Firefox PDF disabled), use Download instead.</p>
+    </div>
+
+    <script>
+    (function(){
+        const modal = document.getElementById('pdfModal');
+        const frame = document.getElementById('pdfModalFrame');
+        const title = document.getElementById('pdfModalTitle');
+        const dl = document.getElementById('pdfModalDownload');
+        const close = document.getElementById('pdfModalClose');
+        function open(pdf, label){
+            frame.src = pdf;
+            title.textContent = label || 'PDF Preview';
+            dl.setAttribute('href', pdf);
+            modal.style.display = 'flex';
+            document.body.style.overflow = 'hidden';
+        }
+        function shut(){
+            modal.style.display = 'none';
+            frame.src = '';
+            document.body.style.overflow = '';
+        }
+        document.querySelectorAll('.pdf-preview-btn').forEach(function(btn){
+            btn.addEventListener('click', function(e){
+                e.preventDefault();
+                open(btn.getAttribute('data-pdf'), btn.getAttribute('data-title'));
+            });
+        });
+        close.addEventListener('click', shut);
+        modal.addEventListener('click', function(e){ if(e.target === modal) shut(); });
+        document.addEventListener('keydown', function(e){ if(e.key === 'Escape' && modal.style.display === 'flex') shut(); });
+    })();
+    </script>
 </body>
 
 </html>

@@ -2,3 +2,4 @@
 .vercel
 .omc
 node_modules
+.claude/
